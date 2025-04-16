@@ -1,0 +1,9 @@
+{
+  "type": "content",
+  "modid": "hadrosauroidea",
+  "name": "Legacy of the Phanerozoic: Shovel Mouth",
+  "authors": [ "laughinggas" ],
+  "description": "Adds the family of hadrosauroids dinosaurs to Vintage Story",
+  "version": "1.0.0",
+  "side": "Universal"
+}
