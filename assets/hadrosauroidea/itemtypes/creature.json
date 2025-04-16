@@ -6,71 +6,91 @@
     {
       "code": "type",
       "states": [ 
-		"macronaria-argentinosaurus-adult-male","macronaria-argentinosaurus-adult-female", "macronaria-argentinosaurus-baby-male", "macronaria-argentinosaurus-baby-female", "macronaria-argentinosaurus-nest-incubating","macronaria-argentinosaurus-nest-mature", "macronaria-argentinosaurus-nest-empty",
+		"hadrosauroidea-shangtungosaurus-adult-male","hadrosauroidea-shangtungosaurus-adult-female", "hadrosauroidea-shangtungosaurus-baby-male", "hadrosauroidea-shangtungosaurus-baby-female","hadrosauroidea-shangtungosaurus-nest-mature","hadrosauroidea-shangtungosaurus-nest-incubating","hadrosauroidea-shangtungosaurus-nest-empty",
+		"hadrosauroidea-magnapaulia-adult-male","hadrosauroidea-magnapaulia-adult-female", "hadrosauroidea-magnapaulia-baby-male", "hadrosauroidea-magnapaulia-baby-female","hadrosauroidea-magnapaulia-nest-mature","hadrosauroidea-magnapaulia-nest-incubating","hadrosauroidea-magnapaulia-nest-empty",
+		"hadrosauroidea-edmontosaurus-adult-male","hadrosauroidea-edmontosaurus-adult-female", "hadrosauroidea-edmontosaurus-baby-male", "hadrosauroidea-edmontosaurus-baby-female","hadrosauroidea-edmontosaurus-nest-mature","hadrosauroidea-edmontosaurus-nest-incubating","hadrosauroidea-edmontosaurus-nest-empty",
+		"hadrosauroidea-saurolophus-adult-male","hadrosauroidea-saurolophus-adult-female", "hadrosauroidea-saurolophus-baby-male", "hadrosauroidea-saurolophus-baby-female","hadrosauroidea-saurolophus-nest-mature","hadrosauroidea-saurolophus-nest-incubating","hadrosauroidea-saurolophus-nest-empty",
+		"hadrosauroidea-hypacrosaurus-adult-male","hadrosauroidea-hypacrosaurus-adult-female", "hadrosauroidea-hypacrosaurus-baby-male", "hadrosauroidea-hypacrosaurus-baby-female","hadrosauroidea-hypacrosaurus-nest-mature","hadrosauroidea-hypacrosaurus-nest-incubating","hadrosauroidea-hypacrosaurus-nest-empty",
+		"hadrosauroidea-parasaurolophus-adult-male","hadrosauroidea-parasaurolophus-adult-female", "hadrosauroidea-parasaurolophus-baby-male", "hadrosauroidea-parasaurolophus-baby-female","hadrosauroidea-parasaurolophus-nest-mature","hadrosauroidea-parasaurolophus-nest-incubating","hadrosauroidea-parasaurolophus-nest-empty",
+		"hadrosauroidea-charonosaurus-adult-male","hadrosauroidea-charonosaurus-adult-female", "hadrosauroidea-charonosaurus-baby-male", "hadrosauroidea-charonosaurus-baby-female","hadrosauroidea-charonosaurus-nest-mature","hadrosauroidea-charonosaurus-nest-incubating","hadrosauroidea-charonosaurus-nest-empty",
+		"hadrosauroidea-olorotitan-adult-male","hadrosauroidea-olorotitan-adult-female", "hadrosauroidea-olorotitan-baby-male", "hadrosauroidea-olorotitan-baby-female","hadrosauroidea-olorotitan-nest-mature","hadrosauroidea-olorotitan-nest-incubating","hadrosauroidea-olorotitan-nest-empty",
+		"hadrosauroidea-hypsibema-adult-male","hadrosauroidea-hypsibema-adult-female", "hadrosauroidea-hypsibema-baby-male", "hadrosauroidea-hypsibema-baby-female","hadrosauroidea-hypsibema-nest-mature","hadrosauroidea-hypsibema-nest-incubating","hadrosauroidea-hypsibema-nest-empty",
+		"hadrosauroidea-gryposaurus-adult-male","hadrosauroidea-gryposaurus-adult-female", "hadrosauroidea-gryposaurus-baby-male", "hadrosauroidea-gryposaurus-baby-female","hadrosauroidea-gryposaurus-nest-mature","hadrosauroidea-gryposaurus-nest-incubating","hadrosauroidea-gryposaurus-nest-empty",
+		"hadrosauroidea-lambeosaurus-adult-male","hadrosauroidea-lambeosaurus-adult-female", "hadrosauroidea-lambeosaurus-baby-male", "hadrosauroidea-lambeosaurus-baby-female","hadrosauroidea-lambeosaurus-nest-mature","hadrosauroidea-lambeosaurus-nest-incubating","hadrosauroidea-lambeosaurus-nest-empty",
+		"hadrosauroidea-brachylophosaurus-adult-male","hadrosauroidea-brachylophosaurus-adult-female", "hadrosauroidea-brachylophosaurus-baby-male", "hadrosauroidea-brachylophosaurus-baby-female","hadrosauroidea-brachylophosaurus-nest-mature","hadrosauroidea-brachylophosaurus-nest-incubating","hadrosauroidea-brachylophosaurus-nest-empty",
+		"hadrosauroidea-corythosaurus-adult-male","hadrosauroidea-corythosaurus-adult-female", "hadrosauroidea-corythosaurus-baby-male", "hadrosauroidea-corythosaurus-baby-female","hadrosauroidea-corythosaurus-nest-mature","hadrosauroidea-corythosaurus-nest-incubating","hadrosauroidea-corythosaurus-nest-empty",
+		"hadrosauroidea-maiasaura-adult-male","hadrosauroidea-maiasaura-adult-female", "hadrosauroidea-maiasaura-baby-male", "hadrosauroidea-maiasaura-baby-female","hadrosauroidea-maiasaura-nest-mature","hadrosauroidea-maiasaura-nest-incubating","hadrosauroidea-maiasaura-nest-empty",
+		"hadrosauroidea-barsboldia-adult-male","hadrosauroidea-barsboldia-adult-female", "hadrosauroidea-barsboldia-baby-male", "hadrosauroidea-barsboldia-baby-female","hadrosauroidea-barsboldia-nest-mature","hadrosauroidea-barsboldia-nest-incubating","hadrosauroidea-barsboldia-nest-empty",
+		"hadrosauroidea-amurosaurus-adult-male","hadrosauroidea-amurosaurus-adult-female", "hadrosauroidea-amurosaurus-baby-male", "hadrosauroidea-amurosaurus-baby-female","hadrosauroidea-amurosaurus-nest-mature","hadrosauroidea-amurosaurus-nest-incubating","hadrosauroidea-amurosaurus-nest-empty",
+		"hadrosauroidea-arenysaurus-adult-male","hadrosauroidea-arenysaurus-adult-female", "hadrosauroidea-arenysaurus-baby-male", "hadrosauroidea-arenysaurus-baby-female","hadrosauroidea-arenysaurus-nest-mature","hadrosauroidea-arenysaurus-nest-incubating","hadrosauroidea-arenysaurus-nest-empty",
+		"hadrosauroidea-bonapartesaurus-adult-male","hadrosauroidea-bonapartesaurus-adult-female", "hadrosauroidea-bonapartesaurus-baby-male", "hadrosauroidea-bonapartesaurus-baby-female","hadrosauroidea-bonapartesaurus-nest-mature","hadrosauroidea-bonapartesaurus-nest-incubating","hadrosauroidea-bonapartesaurus-nest-empty",
+		"hadrosauroidea-pararhabdodo-adult-male","hadrosauroidea-pararhabdodo-adult-female", "hadrosauroidea-pararhabdodo-baby-male", "hadrosauroidea-pararhabdodo-baby-female","hadrosauroidea-pararhabdodo-nest-mature","hadrosauroidea-pararhabdodo-nest-incubating","hadrosauroidea-pararhabdodo-nest-empty",
+		"hadrosauroidea-telmatosaurus-adult-male","hadrosauroidea-telmatosaurus-adult-female", "hadrosauroidea-telmatosaurus-baby-male", "hadrosauroidea-telmatosaurus-baby-female","hadrosauroidea-telmatosaurus-nest-mature","hadrosauroidea-telmatosaurus-nest-incubating","hadrosauroidea-telmatosaurus-nest-empty",
+		"hadrosauroidea-secernosaurus-adult-male","hadrosauroidea-secernosaurus-adult-female", "hadrosauroidea-secernosaurus-baby-male", "hadrosauroidea-secernosaurus-baby-female","hadrosauroidea-secernosaurus-nest-mature","hadrosauroidea-secernosaurus-nest-incubating","hadrosauroidea-secernosaurus-nest-empty",
+		"hadrosauroidea-probactrosaurus-adult-male","hadrosauroidea-probactrosaurus-adult-female", "hadrosauroidea-probactrosaurus-baby-male", "hadrosauroidea-probactrosaurus-baby-female","hadrosauroidea-probactrosaurus-nest-mature","hadrosauroidea-probactrosaurus-nest-incubating","hadrosauroidea-probactrosaurus-nest-empty",
+		"hadrosauroidea-acristavus-adult-male","hadrosauroidea-acristavus-adult-female", "hadrosauroidea-acristavus-baby-male", "hadrosauroidea-acristavus-baby-female","hadrosauroidea-acristavus-nest-mature","hadrosauroidea-acristavus-nest-incubating","hadrosauroidea-acristavus-nest-empty",
+		"hadrosauroidea-kazaklambia-adult-male","hadrosauroidea-kazaklambia-adult-female", "hadrosauroidea-kazaklambia-baby-male", "hadrosauroidea-kazaklambia-baby-female","hadrosauroidea-kazaklambia-nest-mature","hadrosauroidea-kazaklambia-nest-incubating","hadrosauroidea-kazaklambia-nest-empty",
+		"hadrosauroidea-tanius-adult-male","hadrosauroidea-tanius-adult-female", "hadrosauroidea-tanius-baby-male", "hadrosauroidea-tanius-baby-female","hadrosauroidea-tanius-nest-mature","hadrosauroidea-tanius-nest-incubating","hadrosauroidea-tanius-nest-empty",
+		"hadrosauroidea-canardia-adult-male","hadrosauroidea-canardia-adult-female", "hadrosauroidea-canardia-baby-male", "hadrosauroidea-canardia-baby-female","hadrosauroidea-canardia-nest-mature","hadrosauroidea-canardia-nest-incubating","hadrosauroidea-canardia-nest-empty",
 
-		"macronaria-patagotitan-adult-male","macronaria-patagotitan-adult-female", "macronaria-patagotitan-baby-male", "macronaria-patagotitan-baby-female", "macronaria-patagotitan-nest-incubating","macronaria-patagotitan-nest-mature", "macronaria-patagotitan-nest-empty",
-
-		"macronaria-dreadnoughtus-adult-male","macronaria-dreadnoughtus-adult-female", "macronaria-dreadnoughtus-baby-male", "macronaria-dreadnoughtus-baby-female", "macronaria-dreadnoughtus-nest-incubating","macronaria-dreadnoughtus-nest-mature", "macronaria-dreadnoughtus-nest-empty",
-
-		"macronaria-futalognkosaurus-adult-male","macronaria-futalognkosaurus-adult-female", "macronaria-futalognkosaurus-baby-male", "macronaria-futalognkosaurus-baby-female", "macronaria-futalognkosaurus-nest-incubating","macronaria-futalognkosaurus-nest-mature", "macronaria-futalognkosaurus-nest-empty",
-
-		"macronaria-brachiosaurus-adult-male","macronaria-brachiosaurus-adult-female", "macronaria-brachiosaurus-baby-male", "macronaria-brachiosaurus-baby-female", "macronaria-brachiosaurus-nest-incubating","macronaria-brachiosaurus-nest-mature", "macronaria-brachiosaurus-nest-empty",
-
-		"macronaria-giraffatitan-adult-male","macronaria-giraffatitan-adult-female", "macronaria-giraffatitan-baby-male", "macronaria-giraffatitan-baby-female", "macronaria-giraffatitan-nest-incubating","macronaria-giraffatitan-nest-mature", "macronaria-giraffatitan-nest-empty",
-
-		"macronaria-diamantinasaurus-adult-male","macronaria-diamantinasaurus-adult-female", "macronaria-diamantinasaurus-baby-male", "macronaria-diamantinasaurus-baby-female", "macronaria-diamantinasaurus-nest-incubating","macronaria-diamantinasaurus-nest-mature", "macronaria-diamantinasaurus-nest-empty",
-
-		"macronaria-europatitan-adult-male","macronaria-europatitan-adult-female", "macronaria-europatitan-baby-male", "macronaria-europatitan-baby-female", "macronaria-europatitan-nest-incubating","macronaria-europatitan-nest-mature", "macronaria-europatitan-nest-empty",
-
-		"macronaria-antarctosaurus-adult-male","macronaria-antarctosaurus-adult-female", "macronaria-antarctosaurus-baby-male", "macronaria-antarctosaurus-baby-female", "macronaria-antarctosaurus-nest-incubating","macronaria-antarctosaurus-nest-mature", "macronaria-antarctosaurus-nest-empty",
-
-		"macronaria-ruyangosaurus-adult-male","macronaria-ruyangosaurus-adult-female", "macronaria-ruyangosaurus-baby-male", "macronaria-ruyangosaurus-baby-female", "macronaria-ruyangosaurus-nest-incubating","macronaria-ruyangosaurus-nest-mature", "macronaria-ruyangosaurus-nest-empty",
-
-		"macronaria-camarasaurus-adult-male","macronaria-camarasaurus-adult-female", "macronaria-camarasaurus-baby-male", "macronaria-camarasaurus-baby-female", "macronaria-camarasaurus-nest-incubating","macronaria-camarasaurus-nest-mature", "macronaria-camarasaurus-nest-empty",
-
-		"macronaria-bruhathkayosaurus-adult-male","macronaria-bruhathkayosaurus-adult-female", "macronaria-bruhathkayosaurus-baby-male", "macronaria-bruhathkayosaurus-baby-female", "macronaria-bruhathkayosaurus-nest-incubating","macronaria-bruhathkayosaurus-nest-mature", "macronaria-bruhathkayosaurus-nest-empty",
-
-		"macronaria-malawisaurus-adult-male","macronaria-malawisaurus-adult-female", "macronaria-malawisaurus-baby-male", "macronaria-malawisaurus-baby-female", "macronaria-malawisaurus-nest-incubating","macronaria-malawisaurus-nest-mature", "macronaria-malawisaurus-nest-empty",
-
-		"macronaria-ampelosaurus-adult-male","macronaria-ampelosaurus-adult-female", "macronaria-ampelosaurus-baby-male", "macronaria-ampelosaurus-baby-female", "macronaria-ampelosaurus-nest-incubating","macronaria-ampelosaurus-nest-mature", "macronaria-ampelosaurus-nest-empty",
-
-		"macronaria-rapetosaurus-adult-male","macronaria-rapetosaurus-adult-female", "macronaria-rapetosaurus-baby-male", "macronaria-rapetosaurus-baby-female", "macronaria-rapetosaurus-nest-incubating","macronaria-rapetosaurus-nest-mature", "macronaria-rapetosaurus-nest-empty",
 	  ]
     }
   ],
   "shapeByType": {
-			"*-argentinosaurus-adult-*":{"base": "entity/land/macronaria/argentinosaurus/adult"},"*-argentinosaurus-baby-*":{"base": "entity/land/macronaria/argentinosaurus/baby"},
-			"*-patagotitan-adult-*":{"base": "entity/land/macronaria/patagotitan/adult"},"*-patagotitan-baby-*":{"base": "entity/land/macronaria/patagotitan/baby"},
-			"*-dreadnoughtus-adult-*":{"base": "entity/land/macronaria/dreadnoughtus/adult"},"*-dreadnoughtus-baby-*":{"base": "entity/land/macronaria/dreadnoughtus/baby"},
-			"*-futalognkosaurus-adult-*":{"base": "entity/land/macronaria/futalognkosaurus/adult"},"*-futalognkosaurus-baby-*":{"base": "entity/land/macronaria/futalognkosaurus/baby"},
-			"*-brachiosaurus-adult-*":{"base": "entity/land/macronaria/brachiosaurus/adult"},"*-brachiosaurus-baby-*":{"base": "entity/land/macronaria/brachiosaurus/baby"},
-			"*-giraffatitan-adult-*":{"base": "entity/land/macronaria/giraffatitan/adult"},"*-giraffatitan-baby-*":{"base": "entity/land/macronaria/giraffatitan/baby"},
-			"*-diamantinasaurus-adult-*":{"base": "entity/land/macronaria/diamantinasaurus/adult"},"*-diamantinasaurus-baby-*":{"base": "entity/land/macronaria/diamantinasaurus/baby"},
-			"*-europatitan-adult-*":{"base": "entity/land/macronaria/europatitan/adult"},"*-europatitan-baby-*":{"base": "entity/land/macronaria/europatitan/baby"},
-			"*-antarctosaurus-adult-*":{"base": "entity/land/macronaria/antarctosaurus/adult"},"*-antarctosaurus-baby-*":{"base": "entity/land/macronaria/antarctosaurus/baby"},
-			"*-ruyangosaurus-adult-*":{"base": "entity/land/macronaria/ruyangosaurus/adult"},"*-ruyangosaurus-baby-*":{"base": "entity/land/macronaria/ruyangosaurus/baby"},
-			"*-camarasaurus-adult-*":{"base": "entity/land/macronaria/camarasaurus/adult"},"*-camarasaurus-baby-*":{"base": "entity/land/macronaria/camarasaurus/baby"},
-			"*-bruhathkayosaurus-adult-*":{"base": "entity/land/macronaria/bruhathkayosaurus/adult"},"*-bruhathkayosaurus-baby-*":{"base": "entity/land/macronaria/bruhathkayosaurus/baby"},
-			"*-malawisaurus-adult-*":{"base": "entity/land/macronaria/malawisaurus/adult"},"*-malawisaurus-baby-*":{"base": "entity/land/macronaria/malawisaurus/baby"},
-			"*-rapetosaurus-adult-*":{"base": "entity/land/macronaria/rapetosaurus/adult"},"*-rapetosaurus-baby-*":{"base": "entity/land/macronaria/rapetosaurus/baby"},
-			"*-ampelosaurus-adult-*":{"base": "entity/land/macronaria/ampelosaurus/adult"},"*-ampelosaurus-baby-*":{"base": "entity/land/macronaria/ampelosaurus/baby"},
+			"*-shangtungosaurus-adult-*": {"base": "entity/land/hadrosauroidea/shangtungosaurus/adult"}, "*-shangtungosaurus-baby-*": {"base": "entity/land/hadrosauroidea/shangtungosaurus/baby"},
+			"*-magnapaulia-adult-*": {"base": "entity/land/hadrosauroidea/magnapaulia/adult"}, "*-magnapaulia-baby-*": {"base": "entity/land/hadrosauroidea/magnapaulia/baby"},
+			"*-edmontosaurus-adult-*": {"base": "entity/land/hadrosauroidea/edmontosaurus/adult"}, "*-edmontosaurus-baby-*": {"base": "entity/land/hadrosauroidea/edmontosaurus/baby"},
+			"*-saurolophus-adult-*": {"base": "entity/land/hadrosauroidea/saurolophus/adult"}, "*-saurolophus-baby-*": {"base": "entity/land/hadrosauroidea/saurolophus/baby"},
+			"*-hypacrosaurus-adult-*": {"base": "entity/land/hadrosauroidea/hypacrosaurus/adult"}, "*-hypacrosaurus-baby-*": {"base": "entity/land/hadrosauroidea/hypacrosaurus/baby"},
+			"*-parasaurolophus-adult-*": {"base": "entity/land/hadrosauroidea/parasaurolophus/adult"}, "*-parasaurolophus-baby-*": {"base": "entity/land/hadrosauroidea/parasaurolophus/baby"},
+			"*-charonosaurus-adult-*": {"base": "entity/land/hadrosauroidea/charonosaurus/adult"}, "*-charonosaurus-baby-*": {"base": "entity/land/hadrosauroidea/charonosaurus/baby"},
+			"*-olorotitan-adult-*": {"base": "entity/land/hadrosauroidea/olorotitan/adult"}, "*-olorotitan-baby-*": {"base": "entity/land/hadrosauroidea/olorotitan/baby"},
+			"*-hypsibema-adult-*": {"base": "entity/land/hadrosauroidea/hypsibema/adult"}, "*-hypsibema-baby-*": {"base": "entity/land/hadrosauroidea/hypsibema/baby"},
+			"*-gryposaurus-adult-*": {"base": "entity/land/hadrosauroidea/gryposaurus/adult"}, "*-gryposaurus-baby-*": {"base": "entity/land/hadrosauroidea/gryposaurus/baby"},
+			"*-lambeosaurus-adult-*": {"base": "entity/land/hadrosauroidea/lambeosaurus/adult"}, "*-lambeosaurus-baby-*": {"base": "entity/land/hadrosauroidea/lambeosaurus/baby"},
+			"*-brachylophosaurus-adult-*": {"base": "entity/land/hadrosauroidea/brachylophosaurus/adult"}, "*-brachylophosaurus-baby-*": {"base": "entity/land/hadrosauroidea/brachylophosaurus/baby"},
+			"*-corythosaurus-adult-*": {"base": "entity/land/hadrosauroidea/corythosaurus/adult"}, "*-corythosaurus-baby-*": {"base": "entity/land/hadrosauroidea/corythosaurus/baby"},
+			"*-maiasaura-adult-*": {"base": "entity/land/hadrosauroidea/maiasaura/adult"}, "*-maiasaura-baby-*": {"base": "entity/land/hadrosauroidea/maiasaura/baby"},
+			"*-barsboldia-adult-*": {"base": "entity/land/hadrosauroidea/barsboldia/adult"}, "*-barsboldia-baby-*": {"base": "entity/land/hadrosauroidea/barsboldia/baby"},
+			"*-amurosaurus-adult-*": {"base": "entity/land/hadrosauroidea/amurosaurus/adult"}, "*-amurosaurus-baby-*": {"base": "entity/land/hadrosauroidea/amurosaurus/baby"},
+			"*-arenysaurus-adult-*": {"base": "entity/land/hadrosauroidea/arenysaurus/adult"}, "*-arenysaurus-baby-*": {"base": "entity/land/hadrosauroidea/arenysaurus/baby"},
+			"*-bonapartesaurus-adult-*": {"base": "entity/land/hadrosauroidea/bonapartesaurus/adult"}, "*-bonapartesaurus-baby-*": {"base": "entity/land/hadrosauroidea/bonapartesaurus/baby"},
+			"*-pararhabdodo-adult-*": {"base": "entity/land/hadrosauroidea/pararhabdodo/adult"}, "*-pararhabdodo-baby-*": {"base": "entity/land/hadrosauroidea/pararhabdodo/baby"},
+			"*-telmatosaurus-adult-*": {"base": "entity/land/hadrosauroidea/telmatosaurus/adult"}, "*-telmatosaurus-baby-*": {"base": "entity/land/hadrosauroidea/telmatosaurus/baby"},
+			"*-secernosaurus-adult-*": {"base": "entity/land/hadrosauroidea/secernosaurus/adult"}, "*-secernosaurus-baby-*": {"base": "entity/land/hadrosauroidea/secernosaurus/baby"},
+			"*-probactrosaurus-adult-*": {"base": "entity/land/hadrosauroidea/probactrosaurus/adult"}, "*-probactrosaurus-baby-*": {"base": "entity/land/hadrosauroidea/probactrosaurus/baby"},
+			"*-acristavus-adult-*": {"base": "entity/land/hadrosauroidea/acristavus/adult"}, "*-acristavus-baby-*": {"base": "entity/land/hadrosauroidea/acristavus/baby"},
+			"*-kazaklambia-adult-*": {"base": "entity/land/hadrosauroidea/kazaklambia/adult"}, "*-kazaklambia-baby-*": {"base": "entity/land/hadrosauroidea/kazaklambia/baby"},
+			"*-tanius-adult-*": {"base": "entity/land/hadrosauroidea/tanius/adult"}, "*-tanius-baby-*": {"base": "entity/land/hadrosauroidea/tanius/baby"},
+			"*-canardia-adult-*": {"base": "entity/land/hadrosauroidea/canardia/adult"}, "*-canardia-baby-*": {"base": "entity/land/hadrosauroidea/canardia/baby"},
 		},
          "textureByType": {
-            "*-argentinosaurus-adult-*":{"base": "entity/argentinosaurus-adult"},"*-argentinosaurus-baby-*":{"base": "entity/argentinosaurus-adult"},
-            "*-patagotitan-adult-*":{"base": "entity/patagotitan-adult"},"*-patagotitan-baby-*":{"base": "entity/patagotitan-adult"},
-            "*-dreadnoughtus-adult-*":{"base": "entity/dreadnoughtus-adult"},"*-dreadnoughtus-baby-*":{"base": "entity/dreadnoughtus-adult"},
-            "*-futalognkosaurus-adult-*":{"base": "entity/futalognkosaurus-adult"},"*-futalognkosaurus-baby-*":{"base": "entity/futalognkosaurus-adult"},
-            "*-brachiosaurus-adult-*":{"base": "entity/brachiosaurus-adult"},"*-brachiosaurus-baby-*":{"base": "entity/brachiosaurus-adult"},
-            "*-giraffatitan-adult-*":{"base": "entity/giraffatitan-adult"},"*-giraffatitan-baby-*":{"base": "entity/giraffatitan-adult"},
-            "*-diamantinasaurus-adult-*":{"base": "entity/diamantinasaurus-adult"},"*-diamantinasaurus-baby-*":{"base": "entity/diamantinasaurus-adult"},
-            "*-europatitan-adult-*":{"base": "entity/europatitan-adult"},"*-europatitan-baby-*":{"base": "entity/europatitan-adult"},
-            "*-antarctosaurus-adult-*":{"base": "entity/antarctosaurus-adult"},"*-antarctosaurus-baby-*":{"base": "entity/antarctosaurus-adult"},
-            "*-ruyangosaurus-adult-*":{"base": "entity/ruyangosaurus-adult"},"*-ruyangosaurus-baby-*":{"base": "entity/ruyangosaurus-adult"},
-            "*-camarasaurus-adult-*":{"base": "entity/camarasaurus-adult"},"*-camarasaurus-baby-*":{"base": "entity/camarasaurus-adult"},
-            "*-bruhathkayosaurus-adult-*":{"base": "entity/bruhathkayosaurus-adult"},"*-bruhathkayosaurus-baby-*":{"base": "entity/bruhathkayosaurus-adult"},
-            "*-malawisaurus-adult-*":{"base": "entity/malawisaurus-adult"},"*-malawisaurus-baby-*":{"base": "entity/malawisaurus-adult"},
-            "*-rapetosaurus-adult-*":{"base": "entity/rapetosaurus-adult"},"*-rapetosaurus-baby-*":{"base": "entity/rapetosaurus-adult"},
-            "*-ampelosaurus-adult-*":{"base": "entity/ampelosaurus-adult"},"*-ampelosaurus-baby-*":{"base": "entity/ampelosaurus-adult"},
+            "*-shangtungosaurus-adult-*":{"base": "entity/shangtungosaurus-adult"},"*-shangtungosaurus-baby-*":{"base": "entity/shangtungosaurus-baby"},
+			"*-magnapaulia-adult-*":{"base": "entity/magnapaulia-adult"},"*-magnapaulia-baby-*":{"base": "entity/magnapaulia-baby"},
+			"*-edmontosaurus-adult-*":{"base": "entity/edmontosaurus-adult"},"*-edmontosaurus-baby-*":{"base": "entity/edmontosaurus-baby"},
+			"*-saurolophus-adult-*":{"base": "entity/saurolophus-adult"},"*-saurolophus-baby-*":{"base": "entity/saurolophus-baby"},
+			"*-hypacrosaurus-adult-*":{"base": "entity/hypacrosaurus-adult"},"*-hypacrosaurus-baby-*":{"base": "entity/hypacrosaurus-baby"},
+			"*-parasaurolophus-adult-*":{"base": "entity/parasaurolophus-adult"},"*-parasaurolophus-baby-*":{"base": "entity/parasaurolophus-baby"},
+			"*-charonosaurus-adult-*":{"base": "entity/charonosaurus-adult"},"*-charonosaurus-baby-*":{"base": "entity/charonosaurus-baby"},
+			"*-olorotitan-adult-*":{"base": "entity/olorotitan-adult"},"*-olorotitan-baby-*":{"base": "entity/olorotitan-baby"},
+			"*-hypsibema-adult-*":{"base": "entity/hypsibema-adult"},"*-hypsibema-baby-*":{"base": "entity/hypsibema-baby"},
+			"*-gryposaurus-adult-*":{"base": "entity/gryposaurus-adult"},"*-gryposaurus-baby-*":{"base": "entity/gryposaurus-baby"},
+			"*-lambeosaurus-adult-*":{"base": "entity/lambeosaurus-adult"},"*-lambeosaurus-baby-*":{"base": "entity/lambeosaurus-baby"},
+			"*-brachylophosaurus-adult-*":{"base": "entity/brachylophosaurus-adult"},"*-brachylophosaurus-baby-*":{"base": "entity/brachylophosaurus-baby"},
+			"*-corythosaurus-adult-*":{"base": "entity/corythosaurus-adult"},"*-corythosaurus-baby-*":{"base": "entity/corythosaurus-baby"},
+			"*-maiasaura-adult-*":{"base": "entity/maiasaura-adult"},"*-maiasaura-baby-*":{"base": "entity/maiasaura-baby"},
+			"*-barsboldia-adult-*":{"base": "entity/barsboldia-adult"},"*-barsboldia-baby-*":{"base": "entity/barsboldia-baby"},
+			"*-amurosaurus-adult-*":{"base": "entity/amurosaurus-adult"},"*-amurosaurus-baby-*":{"base": "entity/amurosaurus-baby"},
+			"*-arenysaurus-adult-*":{"base": "entity/arenysaurus-adult"},"*-arenysaurus-baby-*":{"base": "entity/arenysaurus-baby"},
+			"*-bonapartesaurus-adult-*":{"base": "entity/bonapartesaurus-adult"},"*-bonapartesaurus-baby-*":{"base": "entity/bonapartesaurus-baby"},
+			"*-pararhabdodo-adult-*":{"base": "entity/pararhabdodo-adult"},"*-pararhabdodo-baby-*":{"base": "entity/pararhabdodo-baby"},
+			"*-telmatosaurus-adult-*":{"base": "entity/telmatosaurus-adult"},"*-telmatosaurus-baby-*":{"base": "entity/telmatosaurus-baby"},
+			"*-secernosaurus-adult-*":{"base": "entity/secernosaurus-adult"},"*-secernosaurus-baby-*":{"base": "entity/secernosaurus-baby"},
+			"*-probactrosaurus-adult-*":{"base": "entity/probactrosaurus-adult"},"*-probactrosaurus-baby-*":{"base": "entity/probactrosaurus-baby"},
+			"*-acristavus-adult-*":{"base": "entity/acristavus-adult"},"*-acristavus-baby-*":{"base": "entity/acristavus-baby"},
+			"*-kazaklambia-adult-*":{"base": "entity/kazaklambia-adult"},"*-kazaklambia-baby-*":{"base": "entity/kazaklambia-baby"},
+			"*-tanius-adult-*":{"base": "entity/tanius-adult"},"*-tanius-baby-*":{"base": "entity/tanius-baby"},
+			"*-canardia-adult-*":{"base": "entity/canardia-adult"},"*-canardia-baby-*":{"base": "entity/canardia-baby"},
         },
 
   "creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
@@ -80,16 +100,17 @@
 			"rotate": true,
 			"translation": { "x": -20, "y": -15, "z": 0 },
 			"rotation": { "x": -11, "y": -52, "z": -180 },
-			"origin": { "x": 2, "y": 2, "z": 1.5 },
-			"scale": 0.5
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.7
 		},
-		"creature-macronaria-*": {
+		"creature-hadrosauroidea-*": {
 			"rotate": true,
 			"translation": { "x": -10, "y": 0, "z": 0 },
 			"rotation": { "x": -11, "y": -52, "z": -180 },
-			"origin": { "x": 3, "y": 3, "z": 1.5 },
-			"scale": 0.15
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.3
 		},
+
 	},
 
 	"tpHandTransformByType": {
@@ -97,17 +118,17 @@
 			"translation": { "x": -0.51, "y": -0.2, "z": -0.7 },
 			"rotation": { "x": 53, "y": -165, "z": 77 },
 			"origin": { "x": 0, "y": 0, "z": 0 },
-			"scale": 0.1
+			"scale": 0.25
 		},
-		"creature-macronaria-*": {
-			"translation": { "x": -12, "y": -12, "z": -8 },
+		"creature-hadrosauroidea-*": {
+			"translation": { "x": -2, "y": -2, "z": -2 },
 			"rotation": { "x": -180, "y": 0, "z": -156 },
-			"scale": 0.05
-		}		
+			"scale": 0.15
+		}
 	},
 
 	"fpHandTransformByType": {
-		"creature-macronaria-*": {
+		"creature-hadrosauroidea-*": {
 			"translation": { "x": -5, "y": -5, "z": 0 },
 			"rotation": { "x": -8, "y": -63, "z": -7 }
 		}
