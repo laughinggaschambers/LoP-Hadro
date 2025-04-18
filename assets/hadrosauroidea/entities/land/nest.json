@@ -429,8 +429,183 @@
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
+			},
+			"*-amurosaurus-*": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 20,
+					"minRain": 0.5,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.6,
+					"maxForest": 0.8,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-arenysaurus-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-bonapartesaurus-*": {
+				"climate": {
+					"minTemp": 15,
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.6,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-pararhabdodon-*": {
+			"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-telmatosaurus-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-secernosaurus-*": {
+				"climate": {
+					"minTemp": 15,
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.6,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-probactrosaurus-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-acristavus-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.5,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.6,
+					"maxForest": 0.7,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-kazaklambia-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-tanius-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-canardia-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
 			}
-		}
-
-
+	}
+}
 }

@@ -1390,7 +1390,183 @@
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
-			}
+			},
+			"*-amurosaurus-adult-*": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 20,
+					"minRain": 0.5,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.6,
+					"maxForest": 0.8,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-arenysaurus-adult-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-bonapartesaurus-adult-*": {
+				"climate": {
+					"minTemp": 15,
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.6,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-pararhabdodon-adult-*": {
+			"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-telmatosaurus-adult-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-secernosaurus-adult-*": {
+				"climate": {
+					"minTemp": 15,
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.6,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-probactrosaurus-adult-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-acristavus-adult-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.5,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.6,
+					"maxForest": 0.7,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-kazaklambia-adult-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-tanius-adult-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-canardia-adult-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
 		}
     },
 "soundsByType": {
