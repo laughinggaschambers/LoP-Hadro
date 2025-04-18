@@ -5,103 +5,180 @@
     "path": "/attributesByType",
     "side": "Server",
     "value": {
-            "*-argentinosaurus-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                      ]
-                    },
+        "*-shangtungosaurus-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
 
-            "*-patagotitan-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                      ]
-                    },
+        "*-magnapaulia-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                  ]
+                },
 
-            "*-dreadnoughtus-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                      ]
-                    },
+        "*-edmontosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-futalognkosaurus-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                      ]
-                    },
+        "*-hadrosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                    "central palearctic",
+                  ]
+                },
 
-            "*-brachiosaurus-*": {
-                      "biorealm": [
-                        "pacific nearctic",
-                        "atlantic nearctic",
-                      ]
-                    },
+        "*-saurolophus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                    "central palearctic",
+                  ]
+                },
 
-            "*-giraffatitan-*": {
-                      "biorealm": [
-                        "eastern afrotropic",
-                      ]
-                    },
+        "*-hypacrosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-diamantinasaurus-*": {
-                      "biorealm": [
-                        "australasian",
-                      ]
-                    },
+        "*-parasaurolophus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-europatitan-*": {
-                      "biorealm": [
-                        "atlantic palearctic",
-                      ]
-                    },
+        "*-charonosaurus-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
 
-            "*-antarctosaurus-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                        "central palearctic",
-                      ]
-                    },
+        "*-olorotitan-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
 
-            "*-ruyangosaurus-*": {
-                      "biorealm": [
-                        "eastern palearctic",
-                      ]
-                    },
+        "*-hypsibema-*": {
+                  "biorealm": [
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-camarasaurus-*": {
-                      "biorealm": [
-                        "pacific nearctic",
-                        "atlantic nearctic",
-                      ]
-                    },
+        "*-gryposaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-bruhathkayosaurus-*": {
-                      "biorealm": [,
-                        "central palearctic",
-                      ]
-                    },
+        "*-lambeosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-malawisaurus-*": {
-                      "biorealm": [
-                        "eastern afrotropic",
-                      ]
-                    },
+        "*-brachylophosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-rapetosaurus-*": {
-                      "biorealm": [
-                        "eastern afrotropic",
-                      ]
-                    },
+        "*-corythosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-ampelosaurus-*": {
-                      "biorealm": [
-                        "atlantic palearctic",
-                      ]
-                    },
+        "*-maiasaura-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
+
+        "*-barsboldia-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
+
+        "*-amurosaurus-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
+
+        "*-arenysaurus-*": {
+                  "biorealm": [
+                    "atlantic palearctic",
+                  ]
+                },
+
+        "*-bonapartesaurus-*": {
+                  "biorealm": [
+                    "atlantic neotropic",
+                  ]
+                },
+
+        "*-pararhabdodon-*": {
+                  "biorealm": [
+                    "atlantic palearctic",
+                  ]
+                },
+
+        "*-telmatosaurus-*": {
+                  "biorealm": [
+                    "atlantic palearctic",
+                  ]
+                },
+
+        "*-secernosaurus-*": {
+                  "biorealm": [
+                    "atlantic neotropic",
+                  ]
+                },
+
+        "*-probactrosaurus-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
+
+        "*-acristavus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
+
+        "*-kazaklambia-*": {
+                  "biorealm": [
+                    "central palearctic",
+                  ]
+                },
+
+        "*-tanius-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
+
+        "*-canardia-*": {
+                  "biorealm": [
+                    "atlantic palearctic",
+                  ]
+                },
 
     },
     "dependsOn": [
@@ -116,103 +193,180 @@
     "path": "/attributesByType",
     "side": "Server",
     "value": {
-            "*-argentinosaurus-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                      ]
-                    },
+        "*-shangtungosaurus-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
 
-            "*-patagotitan-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                      ]
-                    },
+        "*-magnapaulia-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                  ]
+                },
 
-            "*-dreadnoughtus-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                      ]
-                    },
+        "*-edmontosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-futalognkosaurus-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                      ]
-                    },
+        "*-hadrosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                    "central palearctic",
+                  ]
+                },
 
-            "*-brachiosaurus-*": {
-                      "biorealm": [
-                        "pacific nearctic",
-                        "atlantic nearctic",
-                      ]
-                    },
+        "*-saurolophus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                    "central palearctic",
+                  ]
+                },
 
-            "*-giraffatitan-*": {
-                      "biorealm": [
-                        "eastern afrotropic",
-                      ]
-                    },
+        "*-hypacrosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-diamantinasaurus-*": {
-                      "biorealm": [
-                        "australasian",
-                      ]
-                    },
+        "*-parasaurolophus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-europatitan-*": {
-                      "biorealm": [
-                        "atlantic palearctic",
-                      ]
-                    },
+        "*-charonosaurus-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
 
-            "*-antarctosaurus-*": {
-                      "biorealm": [
-                        "pacific neotropic",
-                        "atlantic neotropic",
-                        "central palearctic",
-                      ]
-                    },
+        "*-olorotitan-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
 
-            "*-ruyangosaurus-*": {
-                      "biorealm": [
-                        "eastern palearctic",
-                      ]
-                    },
+        "*-hypsibema-*": {
+                  "biorealm": [
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-camarasaurus-*": {
-                      "biorealm": [
-                        "pacific nearctic",
-                        "atlantic nearctic",
-                      ]
-                    },
+        "*-gryposaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-bruhathkayosaurus-*": {
-                      "biorealm": [,
-                        "central palearctic",
-                      ]
-                    },
+        "*-lambeosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-malawisaurus-*": {
-                      "biorealm": [
-                        "eastern afrotropic",
-                      ]
-                    },
+        "*-brachylophosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-rapetosaurus-*": {
-                      "biorealm": [
-                        "eastern afrotropic",
-                      ]
-                    },
+        "*-corythosaurus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
 
-            "*-ampelosaurus-*": {
-                      "biorealm": [
-                        "atlantic palearctic",
-                      ]
-                    },
+        "*-maiasaura-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
+
+        "*-barsboldia-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
+
+        "*-amurosaurus-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
+
+        "*-arenysaurus-*": {
+                  "biorealm": [
+                    "atlantic palearctic",
+                  ]
+                },
+
+        "*-bonapartesaurus-*": {
+                  "biorealm": [
+                    "atlantic neotropic",
+                  ]
+                },
+
+        "*-pararhabdodon-*": {
+                  "biorealm": [
+                    "atlantic palearctic",
+                  ]
+                },
+
+        "*-telmatosaurus-*": {
+                  "biorealm": [
+                    "atlantic palearctic",
+                  ]
+                },
+
+        "*-secernosaurus-*": {
+                  "biorealm": [
+                    "atlantic neotropic",
+                  ]
+                },
+
+        "*-probactrosaurus-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
+
+        "*-acristavus-*": {
+                  "biorealm": [
+                    "pacific nearctic",
+                    "atlantic nearctic",
+                  ]
+                },
+
+        "*-kazaklambia-*": {
+                  "biorealm": [
+                    "central palearctic",
+                  ]
+                },
+
+        "*-tanius-*": {
+                  "biorealm": [
+                    "eastern palearctic",
+                  ]
+                },
+
+        "*-canardia-*": {
+                  "biorealm": [
+                    "atlantic palearctic",
+                  ]
+                },
 
     },
     "dependsOn": [

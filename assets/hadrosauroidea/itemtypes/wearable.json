@@ -1,23 +1,23 @@
 {
-	code: "macronswearable",
+	code: "hadrowearable",
 	variantgroups: [
 		{ code: "type", states: [
-			"bridle1","bridle2", "howdah"
+			"bridle1","bridle2", "saddle"
 		] }
 	],
 	allowedVariants: [
-		"macronswearable-bridle1",
-		"macronswearable-bridle2",
-		"macronswearable-howdah"
+		"hadrowearable-bridle1",
+		"hadrowearable-bridle2",
+		"hadrowearable-saddle"
 	],
 	attributes: {
 		attachableToEntity: {
 			categoryCodeByType: {
-				"macronswearable-bridle*": "macronsbridle",
-				"macronswearable-howdah*": "macronshowdah"
+				"hadrowearable-bridle*": "hadrobridle",
+				"hadrowearable-saddle*": "hadrosaddle"
 			},
 			attachedShapeBySlotCodeByType: {
-				"*-howdah": {"*": { base: "item/wearable/howdah"}},
+				"*-saddle": {"*": { base: "item/wearable/saddle"}},
 				"*-bridle*": { 
 					"*": { base: "item/wearable/bridle1" }
 				}
@@ -28,19 +28,19 @@
 			"*-bridle2": "Press"
 		},
 		isSaddleByType: {
-			"macronswearable-howdah": true
+			"hadrowearable-saddle": true
 		},
 		isBridleByType: {
-			"macronswearable-bridle*": true
+			"hadrowearable-bridle*": true
 		},
 		interactPassthroughByType: {
-			"*-howdah": true
+			"*-saddle": true
 		}
 	},
 	shapeByType: {
 		"*-bridle2": { base: "item/wearable/bridle1" },
 		"*-bridle1": { base: "item/wearable/bridle1" },
-		"*-howdah": { base: "item/wearable/howdah" }
+		"*-saddle": { base: "item/wearable/saddle" }
 	},
 	texturesByType: {
 		"*": {
@@ -54,19 +54,19 @@
 	},
 	heldTpIdleAnimationByType: {
 		"*": "holdbothhands",
-		"macronswearable-saddlebags*": "holdbothhands"
+		"hadrowearable-saddlebags*": "holdbothhands"
 	},
 	maxStackSize: 1,
 	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
 	renderAlphaTest: 0.25,
 	guiTransformByType: {
-		"*-howdah": {
+		"*-saddle": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -35, y: -46, z: -180 },
 			origin: { x: 0.5, y: 0.2, z: 0.6 },
-			scale: 0.25
+			scale: 1
 		},
-		"macronswearable-bridle*": {
+		"hadrowearable-bridle*": {
 			translation: { x: 0, y: 0, z: 0 },
 			rotation: { x: -45, y: -70, z: -180 },
 			origin: { x: 0.5, y: -0, z: 0.5 },
@@ -74,24 +74,24 @@
 		}
 	},
 	groundTransformByType: {
-		"*-howdah": {
-			translation: { x: 0, y: -5, z: 0 },
+		"*-saddle": {
+			translation: { x: 0, y: 0.51, z: 0 },
 			rotation: { x: 0, y: 0, z: 0 },
 			scale: 5
 		},
-		"macronswearable-bridle*": {
+		"hadrowearable-bridle*": {
 			translation: { x: 0, y: 0.5, z: 0 },
 			rotation: { x: 0, y: 0, z: 0 },
 			scale: 5
 		}
 	},
 	tpHandTransformByType: {
-		"*-howdah": {
-			translation: { x: 1, y: -2.8, z: -2.4 },
+		"*-saddle": {
+			translation: { x: -1, y: -1.2, z: -1},
 			rotation: { x: -43, y: -17, z: -107 },
-			scale: 0.25
+			scale: 0.8
 		},
-		"macronswearable-bridle*": {
+		"hadrowearable-bridle*": {
 			translation: { x: -1, y: -1.50, z: -0.6 },
 			rotation: { x: -43, y: -17, z: -107 },
 			scale: 0.8

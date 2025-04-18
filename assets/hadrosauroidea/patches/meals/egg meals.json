@@ -1,5 +1,6 @@
 [
 
+
 {
     "file": "game:recipes/cooking/meatystew",
     "side": "server",
@@ -7,7 +8,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-argentinosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-shangtungosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -18,7 +19,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-argentinosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-shangtungosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -30,7 +31,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-argentinosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-shangtungosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -38,7 +39,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-argentinosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-shangtungosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -49,7 +50,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-patagotitan-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-magnapaulia-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -60,7 +61,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-patagotitan-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-magnapaulia-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -72,7 +73,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-patagotitan-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-magnapaulia-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -80,7 +81,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-patagotitan-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-magnapaulia-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -91,7 +92,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-dreadnoughtus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-edmontosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -102,7 +103,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-dreadnoughtus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-edmontosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -114,7 +115,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-dreadnoughtus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-edmontosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -122,7 +123,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-dreadnoughtus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-edmontosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -133,7 +134,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-futalognkosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-hadrosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -144,7 +145,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-futalognkosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-hadrosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -156,7 +157,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-futalognkosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-hadrosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -164,7 +165,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-futalognkosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-hadrosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -175,7 +176,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-brachiosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-saurolophus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -186,7 +187,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-brachiosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-saurolophus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -198,7 +199,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-brachiosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-saurolophus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -206,7 +207,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-brachiosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-saurolophus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -217,7 +218,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-giraffatitan-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-hypacrosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -228,7 +229,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-giraffatitan-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-hypacrosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -240,7 +241,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-giraffatitan-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-hypacrosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -248,7 +249,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-giraffatitan-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-hypacrosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -259,7 +260,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-diamantinasaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-parasaurolophus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -270,7 +271,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-diamantinasaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-parasaurolophus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -282,7 +283,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-diamantinasaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-parasaurolophus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -290,7 +291,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-diamantinasaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-parasaurolophus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -301,7 +302,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-europatitan-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-charonosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -312,7 +313,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-europatitan-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-charonosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -324,7 +325,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-europatitan-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-charonosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -332,7 +333,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-europatitan-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-charonosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -343,7 +344,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-antarctosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-olorotitan-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -354,7 +355,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-antarctosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-olorotitan-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -366,7 +367,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-antarctosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-olorotitan-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -374,7 +375,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-antarctosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-olorotitan-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -385,7 +386,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-ruyangosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-hypsibema-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -396,7 +397,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-ruyangosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-hypsibema-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -408,7 +409,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-ruyangosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-hypsibema-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -416,7 +417,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-ruyangosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-hypsibema-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -427,7 +428,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-camarasaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-gryposaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -438,7 +439,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-camarasaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-gryposaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -450,7 +451,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-camarasaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-gryposaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -458,7 +459,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-camarasaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-gryposaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -469,7 +470,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-bruhathkayosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-lambeosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -480,7 +481,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-bruhathkayosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-lambeosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -492,7 +493,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-bruhathkayosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-lambeosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -500,7 +501,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-bruhathkayosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-lambeosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -511,7 +512,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-malawisaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-brachylophosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -522,7 +523,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-malawisaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-brachylophosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -534,7 +535,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-malawisaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-brachylophosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -542,7 +543,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-malawisaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-brachylophosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -553,7 +554,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-rapetosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-corythosaurus-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -564,7 +565,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-rapetosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-corythosaurus-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -576,7 +577,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-rapetosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-corythosaurus-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -584,7 +585,7 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-rapetosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-corythosaurus-egg-raw",
     "value": [ "meat", "group6" ]
   },
 
@@ -595,7 +596,7 @@
     "path": "/ingredients/1/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-ampelosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-maiasaura-egg-raw",
       "shapeElement": "bowl/egg/*"
     }
   },
@@ -606,7 +607,7 @@
     "path": "/ingredients/0/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-ampelosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-maiasaura-egg-raw",
       "shapeElement": "bowl/egg/*",
       "textureMapping": ["scrambledegg", "group7"]
     }
@@ -618,7 +619,7 @@
     "path": "/ingredients/4/validStacks/-",
     "value": {
       "type": "item",
-      "code": "macronaria:creature-macronaria-ampelosaurus-egg-raw",
+      "code": "hadrosauroidea:creature-hadrosauroidea-maiasaura-egg-raw",
       "shapeElement": "bowl/meat/*"
     }
   },
@@ -626,8 +627,513 @@
     "file": "game:blocktypes/clay/pot",
     "side": "server",
     "op": "addmerge",
-    "path": "/attributesByType/claypot-cooked/textureMapping/macronaria:creature-macronaria-ampelosaurus-egg-raw",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-maiasaura-egg-raw",
     "value": [ "meat", "group6" ]
   },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-barsboldia-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-barsboldia-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-barsboldia-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-barsboldia-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-amurosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-amurosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-amurosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-amurosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-arenysaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-arenysaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-arenysaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-arenysaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-bonapartesaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-bonapartesaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-bonapartesaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-bonapartesaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-pararhabdodon-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-pararhabdodon-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-pararhabdodon-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-pararhabdodon-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-telmatosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-telmatosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-telmatosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-telmatosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-secernosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-secernosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-secernosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-secernosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-probactrosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-probactrosaurus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-probactrosaurus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-probactrosaurus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-acristavus-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-acristavus-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-acristavus-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-acristavus-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-kazaklambia-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-kazaklambia-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-kazaklambia-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-kazaklambia-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-tanius-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-tanius-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-tanius-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-tanius-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
+{
+    "file": "game:recipes/cooking/meatystew",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/1/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-canardia-egg-raw",
+      "shapeElement": "bowl/egg/*"
+    }
+  },
+  {
+    "file": "game:recipes/cooking/scrambledeggs",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/0/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-canardia-egg-raw",
+      "shapeElement": "bowl/egg/*",
+      "textureMapping": ["scrambledegg", "group7"]
+    }
+  },
+  {
+    "file": "game:recipes/cooking/soup",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/ingredients/4/validStacks/-",
+    "value": {
+      "type": "item",
+      "code": "hadrosauroidea:creature-hadrosauroidea-canardia-egg-raw",
+      "shapeElement": "bowl/meat/*"
+    }
+  },
+  {
+    "file": "game:blocktypes/clay/pot",
+    "side": "server",
+    "op": "addmerge",
+    "path": "/attributesByType/claypot-cooked/textureMapping/hadrosauroidea:creature-hadrosauroidea-canardia-egg-raw",
+    "value": [ "meat", "group6" ]
+  },
+
 
 ]

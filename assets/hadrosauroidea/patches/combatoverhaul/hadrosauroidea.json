@@ -1,0 +1,72 @@
+[
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "hadrosauroidea:entities/land/hadrosauroidea",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck","Body Front", "Body", "Body Back", "Tail", "Tail2","Tail3","Tail4","Tail5","BodyFT","BodyFT2","BodyFT3","BodyFT4","BodyFT5","BodyFT6","BodyFT7","BodyFT8","BodyFT9","SpineMain","SpineMain2","SpineMain3","SpineMain4","SpineMain5","SpineMain6","SpineMain7","SpineMain8","SpineMain9","BodyFB4","BodyFB5",],
+        "Head": ["Head", "Jaw","Lower Jaw","Lower Jaw1","Throat","JawLine","Beak6","Beak2","Beak7","Beak","Head9","Head2","Head3",],
+        "Arm": [],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Critical": ["EyeR","EyeL"],
+        "Resistant": []
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "hadrosauroidea:entities/land/hadrosauroidea",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck","Body Front", "Body", "Body Back", "Tail", "Tail2","Tail3","Tail4","Tail5","BodyFT","BodyFT2","BodyFT3","BodyFT4","BodyFT5","BodyFT6","BodyFT7","BodyFT8","BodyFT9","SpineMain","SpineMain2","SpineMain3","SpineMain4","SpineMain5","SpineMain6","SpineMain7","SpineMain8","SpineMain9","BodyFB4","BodyFB5",],
+        "Head": ["Head", "Jaw","Lower Jaw","Lower Jaw1","Throat","JawLine","Beak6","Beak2","Beak7","Beak","Head9","Head2","Head3",],
+        "Arm": [],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Critical": ["EyeR","EyeL"],
+        "Resistant": []
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "hadrosauroidea:entities/land/hadrosauroidea",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 5,
+        "CriticalDamageMultiplier": 25,
+        "DefaultResists": {"BluntAttack": 6, "SlashingAttack": 4, "PiercingAttack": 0}
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "hadrosauroidea:entities/land/hadrosauroidea",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 5,
+        "CriticalDamageMultiplier": 25,
+        "DefaultResists": {"BluntAttack": 6, "SlashingAttack": 4, "PiercingAttack": 0}
+      }
+    }
+  }
+]

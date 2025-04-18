@@ -1,8 +1,8 @@
 {
-	"code": "macronaria",
+	"code": "hadrosauroidea",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["argentinosaurus","patagotitan","dreadnoughtus","futalognkosaurus","brachiosaurus","giraffatitan","diamantinasaurus","europatitan","antarctosaurus","ruyangosaurus","camarasaurus","bruhathkayosaurus","malawisaurus","rapetosaurus","ampelosaurus"]},
+		{"code": "type","states": ["shangtungosaurus", "magnapaulia", "edmontosaurus","hadrosaurus", "saurolophus", "hypacrosaurus", "parasaurolophus", "charonosaurus", "olorotitan","hypsibema","gryposaurus", "lambeosaurus", "brachylophosaurus", "corythosaurus", "maiasaura", "barsboldia", "amurosaurus", "arenysaurus", "bonapartesaurus", "pararhabdodon", "telmatosaurus", "secernosaurus", "probactrosaurus", "acristavus", "kazaklambia", "tanius", "canardia"]},
 		{ "code": "age", "states": ["egg"] },
 		{ "code": "state", "states": ["raw"] }
 	],
@@ -25,10 +25,10 @@
 	"weightByType": {
 		"*": 1
 	},
-	"drops": [{ "type": "item", "code": "creature-macronaria-{type}-egg-raw" }],
+	"drops": [{ "type": "item", "code": "creature-hadrosauroidea-{type}-egg-raw" }],
 	"attributes": {
 		"handbook": {
-			"groupcode": "creaturegroup-macronaria"
+			"groupcode": "creaturegroup-hadrosauroidea"
 		}
 	},
 	"client": {
@@ -62,7 +62,7 @@
 			{
 				"code": "grow",
 				"hoursToGrow": 200,
-				"adultEntityCodesByType": {"*": ["macronaria:macronaria-{type}-baby-male","macronaria:macronaria-{type}-baby-female"]}
+				"adultEntityCodesByType": {"*": ["hadrosauroidea:hadrosauroidea-{type}-baby-male","hadrosauroidea:hadrosauroidea-{type}-baby-female"]}
 				},
 			{
 				"code": "taskai",
@@ -90,7 +90,7 @@
 				"maxQuantity": 1,
 				"spawnCapPlayerScaling": 0.0,
 				"maxQuantityByGroup": {
-					"code": "macronaria-*",
+					"code": "hadrosauroidea-*",
 					"maxQuantity": 1
 				},
 				"chanceByType": {

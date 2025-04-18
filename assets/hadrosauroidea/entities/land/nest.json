@@ -2,7 +2,7 @@
 	"code": "hadrosauroidea",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["argentinosaurus","patagotitan","dreadnoughtus","futalognkosaurus","brachiosaurus","giraffatitan","diamantinasaurus","europatitan","antarctosaurus","ruyangosaurus","camarasaurus","bruhathkayosaurus","malawisaurus","rapetosaurus","ampelosaurus"]},
+		{"code": "type","states": ["shangtungosaurus", "magnapaulia", "edmontosaurus","hadrosaurus", "saurolophus", "hypacrosaurus", "parasaurolophus", "charonosaurus", "olorotitan","hypsibema","gryposaurus", "lambeosaurus", "brachylophosaurus", "corythosaurus", "maiasaura", "barsboldia", "amurosaurus", "arenysaurus", "bonapartesaurus", "pararhabdodon", "telmatosaurus", "secernosaurus", "probactrosaurus", "acristavus", "kazaklambia", "tanius", "canardia"]},
 		{ "code": "age", "states": ["nest"] },
 		{ "code": "state", "states": ["incubating","mature","empty"] }
 	],
@@ -90,7 +90,7 @@
 					},
 					{
 						"type": "item",
-						"code": "macronaria:creature-macronaria-{type}-egg-raw",
+						"code": "hadrosauroidea:creature-hadrosauroidea-{type}-egg-raw",
 						"quantityByType": {
 							"*-incubating": {"avg": 10,"var": 20, "dist":"gaussian"},
 							"*":{"avg": 0,"var": 0}
@@ -104,10 +104,10 @@
 					"*-empty": false,
 					"*": true
 				},
-				"hoursToGrowByType": {"*-incubating": 160,"*-mature": 2},
+				"hoursToGrowByType": {"*-incubating": 140,"*-mature": 2},
 				"adultEntityCodesByType": {
-					"*-incubating": ["macronaria:macronaria-{type}-nest-mature"],
-					"*-mature": ["macronaria:macronaria-{type}-nest-empty"]
+					"*-incubating": ["hadrosauroidea:hadrosauroidea-{type}-nest-mature"],
+					"*-mature": ["hadrosauroidea:hadrosauroidea-{type}-nest-empty"]
 				}
 			},
 			{"code": "emotionstates","states": []},
@@ -120,8 +120,8 @@
 						"enabledByType": {"*-mature": true,"*": false},
 						"onNearbyEntityCodes": ["player"],
 						"spawnMobs": [
-							"macronaria:macronaria-{type}-baby-female",
-							"macronaria:macronaria-{type}-baby-male"
+							"hadrosauroidea:hadrosauroidea-{type}-baby-female",
+							"hadrosauroidea:hadrosauroidea-{type}-baby-male"
 						],
 						"spawnMaxQuantity": 5,
 						"spawnIntervalMsMin": 1000,
@@ -162,7 +162,7 @@
 			"groupSizeByType": {
 				"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
 			},
-			"*":["macronaria:macronaria-{type}-adult-female"]},
+			"*":["hadrosauroidea:hadrosauroidea-{type}-adult-female"]},
 
 		"runtime": {
 			"group": "neutral",
@@ -186,208 +186,250 @@
 				"game:soil-*"
 			],
 			"companionsByType": {
-			"*":["macronaria:macronaria-{type}-adult-female","macronaria:macronaria-{type}-adult-female"]}
+			"*":["hadrosauroidea:hadrosauroidea-{type}-adult-male","hadrosauroidea:hadrosauroidea-{type}-adult-female"]}
 		},
     },
 	"spawnconditionsByType": {
-			"*-argentinosaurus-adult-*": {
+			"*-shangtungosaurus-*": {
 				"climate": {
 					"minTemp": 10,
-					"maxTemp": 40,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.5
-				}
-			},
-			"*-patagotitan-adult-*": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 40,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.5
-				}
-			},
-			"*-dreadnoughtus-adult-*": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 35,
+					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.6,
+					"maxForest": 0.7,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-futalognkosaurus-adult-*": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 35,
-					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				}
-			},
-			"*-brachiosaurus-adult-*": {
+			"*-magnapaulia-*": {
 				"climate": {
 					"minTemp": 15,
-					"maxTemp": 45,
-					"minRain": 0.4,
+					"maxTemp": 30,
+					"minRain": 0.5,
 					"maxRain": 0.9,
 					"minForestOrShrubs": 0.5,
-					"maxForest": 0.9,
-					"maxShrubs": 0.6,
-					"minY": 0.9,
-					"maxY": 1.6
+					"maxForest": 0.6,
+					"maxShrubs": 0.7,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-giraffatitan-adult-*": {
+			"*-edmontosaurus-*": {
+				"climate": {
+					"minTemp": -5,
+					"maxTemp": 20,
+					"minRain": 0.3,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.6,
+					"maxShrubs": 0.5,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-hadrosaurus-*": {
 				"climate": {
 					"minTemp": 15,
-					"maxTemp": 45,
+					"maxTemp": 25,
+					"minRain": 0.3,
+					"maxRain": 0.6,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.5,
+					"maxShrubs": 0.5,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-saurolophus-*": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 25,
+					"minRain": 0.3,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-hypacrosaurus-*": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 20,
 					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.7,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-parasaurolophus-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 30,
+					"minRain": 0.4,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.7,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-charonosaurus-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-olorotitan-*": {
+				"climate": {
+					"minTemp": 0,
+					"maxTemp": 20,
+					"minRain": 0.5,
+					"maxRain": 0.9,
+					"minForestOrShrubs": 0.6,
+					"maxForest": 0.8,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-hypsibema-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 30,
+					"minRain": 0.5,
 					"maxRain": 0.9,
 					"minForestOrShrubs": 0.5,
-					"maxForest": 0.9,
+					"maxForest": 0.6,
+					"maxShrubs": 0.7,
+					"minY": 1,
+					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+				}
+			},
+			"*-gryposaurus-*": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 25,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
 					"maxShrubs": 0.6,
-					"minY": 0.9,
-					"maxY": 1.6
-				}
-			},
-			"*-diamantinasaurus-adult-*": {
-				"climate": {
-					"minTemp": 15,
-					"maxTemp": 40,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
+					"minY": 1,
 					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-europatitan-adult-*": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 35,
-					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				}
-			},
-			"*-antarctosaurus-adult-*": {
+			"*-lambeosaurus-*": {
 				"climate": {
 					"minTemp": 5,
-					"maxTemp": 35,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
+					"maxTemp": 20,
+					"minRain": 0.4,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.6,
+					"maxShrubs": 0.6,
+					"minY": 1,
 					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-ruyangosaurus-adult-*": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 40,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.5
-				}
-			},
-			"*-camarasaurus-adult-*": {
+			"*-brachylophosaurus-*": {
 				"climate": {
 					"minTemp": 5,
-					"maxTemp": 35,
+					"maxTemp": 20,
 					"minRain": 0.4,
-					"maxRain": 0.9,
+					"maxRain": 0.6,
 					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				}
-			},
-			"*-bruhathkayosaurus-adult-*": {
-				"climate": {
-					"minTemp": 15,
-					"maxTemp": 45,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
+					"maxForest": 0.6,
+					"maxShrubs": 0.5,
+					"minY": 1,
 					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-malawisaurus-adult-*": {
+			"*-corythosaurus-*": {
 				"climate": {
-					"minTemp": 15,
-					"maxTemp": 40,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.5
-				}
-			},
-			"*-rapetosaurus-adult-*": {
-				"climate": {
-					"minTemp": 15,
-					"maxTemp": 40,
+					"minTemp": 5,
+					"maxTemp": 20,
 					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.7,
+					"maxShrubs": 0.6,
+					"minY": 1,
 					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-ampelosaurus-adult-*": {
+			"*-maiasaura-*": {
 				"climate": {
-					"minTemp": 10,
-					"maxTemp": 35,
+					"minTemp": 5,
+					"maxTemp": 25,
 					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.3,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.5,
 					"maxForest": 0.7,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
+					"maxShrubs": 0.6,
+					"minY": 1,
 					"maxY": 1.5
+				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			}
-
-
-
 		}
 
 

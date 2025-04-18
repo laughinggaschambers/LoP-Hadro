@@ -3,8 +3,9 @@
 	"class": "ItemCreature",
 	"maxstacksize": 32,
 	"variantgroups": [
-		{"code": "family","states": ["macronaria",]},
-		{"code": "type","states": ["argentinosaurus","patagotitan","dreadnoughtus","futalognkosaurus","brachiosaurus","giraffatitan","diamantinasaurus","europatitan","antarctosaurus","ruyangosaurus","camarasaurus","bruhathkayosaurus","malawisaurus","rapetosaurus","ampelosaurus"]},
+		{"code": "family","states": ["hadrosauroidea",]},
+		{"code": "type","states":
+		["shangtungosaurus", "magnapaulia", "edmontosaurus","hadrosaurus", "saurolophus", "hypacrosaurus", "parasaurolophus", "charonosaurus", "olorotitan","hypsibema","gryposaurus", "lambeosaurus", "brachylophosaurus", "corythosaurus", "maiasaura", "barsboldia", "amurosaurus", "arenysaurus", "bonapartesaurus", "pararhabdodon", "telmatosaurus", "secernosaurus", "probactrosaurus", "acristavus", "kazaklambia", "tanius", "canardia"]},
 		{ "code": "age", "states": ["egg"] },
 		{ "code": "state", "states": ["raw"] }
 	],
@@ -22,10 +23,10 @@
 	"attributes": {
 		"foodTags": "egg",
 		"nutritionPropsWhenInMealByType": {
-		"*": {"satiety": 80,"foodcategory": "Protein"},
+		"*": {"satiety": 90,"foodcategory": "Protein"},
     },
 	"nutritionPropsByType": {
-		"*-boiled": {"satiety": 70,"foodcategory": "Protein"},
+		"*-boiled": {"satiety": 80,"foodcategory": "Protein"},
 	}},
 	"materialDensity": 200,
 	"guiTransformByType": {

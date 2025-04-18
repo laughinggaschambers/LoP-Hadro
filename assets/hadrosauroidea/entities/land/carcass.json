@@ -1,5 +1,5 @@
 {
-	"code": "macronaria",
+	"code": "hadrosauroidea",
 	"class": "EntityAgent",
 	"variantgroups": [
 		{"code": "type","states": [ "carcass"]}
@@ -129,7 +129,7 @@
 				"group": "neutral",
 				"tryOnlySurface": true,
 				"chanceByType": {
-					"macronaria-carcass": 0.00001
+					"hadrosauroidea-carcass": 0.00001
 				},
 				"mindistancetoplayer": 100,
 				"maxLightLevel": 7,
@@ -142,7 +142,7 @@
 			}
 		},
 		"spawnconditionsByType": {
-			"macronaria-carcass": {
+			"hadrosauroidea-carcass": {
 				"climate": {
 					"minTemp": -20,
 					"maxTemp": 40,
@@ -155,7 +155,7 @@
 					"maxY": 1.7					
 				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "macronaria-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			}
 		}
