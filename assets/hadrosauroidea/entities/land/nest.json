@@ -150,6 +150,7 @@
 		],
 	"spawnconditions": {
 		"worldgen": {
+			"triesPerChunk": { "avg": 0.0, "var": 0},
 			"tryOnlySurface": true,
 			"insideBlockCodes": [
 				"game:air",
@@ -160,14 +161,13 @@
 				"game:soil-*"
 			],
 			"groupSizeByType": {
-				"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
+				"*": { "dist": "uniform", "avg": 2, "var": 1 }
 			},
-			"*":["hadrosauroidea:hadrosauroidea-{type}-adult-female"]},
+			"*":["hadrosauroidea:hadrosauroidea-{type}-adult-male","hadrosauroidea:hadrosauroidea-{type}-adult-female"]},
 
 		"runtime": {
 			"group": "neutral",
 			"tryOnlySurface": true,
-			"maxQuantityByGroup": {"code": "*",	"maxQuantity": 1},
 			"chanceByType": {"*-incubating": 0.00001,"*": 0.0},
 			"TriesPerChunk": { "avg": 0.0, "var": 0 },
 			"mindistancetoplayer": 100,
@@ -175,7 +175,7 @@
 			"lightLevelType": "onlyBlockLight",
 			"spawnCapPlayerScaling": 0.0,
 			"groupSizeByType": {
-				"*": { "dist": "uniform", "avg": 2, "var": 0 }
+				"*": { "dist": "uniform", "avg": 2, "var": 1 }
 			},
 			"insideBlockCodes": [
 				"game:air",
@@ -202,6 +202,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -217,6 +220,9 @@
 					"maxShrubs": 0.7,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -234,6 +240,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -249,6 +258,9 @@
 					"maxShrubs": 0.5,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -266,6 +278,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -281,6 +296,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -298,6 +316,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -313,6 +334,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -330,6 +354,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -345,6 +372,9 @@
 					"maxShrubs": 0.7,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -362,6 +392,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -377,6 +410,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -394,6 +430,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -409,6 +448,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -426,6 +468,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -441,6 +486,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -458,6 +506,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -473,6 +524,9 @@
 					"maxShrubs": 0.5,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -490,6 +544,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -505,6 +562,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -522,6 +582,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -537,6 +600,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -554,6 +620,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -569,6 +638,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
@@ -586,6 +658,9 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
@@ -601,6 +676,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }

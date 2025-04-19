@@ -1048,10 +1048,10 @@
 						"duringDayTimeFramesByType": {"*-adult-*":[{"fromHour": 18,"toHour": 19},{"fromHour": 6,"toHour": 7}]},
 						"movespeedByType": {
 							"*-adult-*": 0.010,
-							"*-baby-*": 0.008,
+							"*-baby-*": 0.005,
 						},
 						"animationSpeedByType": {
-							"*-baby-*": 1,
+							"*-baby-*": 1.5,
 							"*": 1
 						},
 						"preferredLightLevel": 24,
@@ -1098,11 +1098,9 @@
 				"*-adult-male":["hadrosauroidea:hadrosauroidea-{type}-adult-female","hadrosauroidea:hadrosauroidea-{type}-adult-female","hadrosauroidea:hadrosauroidea-{type}-adult-female","hadrosauroidea:hadrosauroidea-{type}-adult-male", "hadrosauroidea:hadrosauroidea-{type}-baby-female","hadrosauroidea:hadrosauroidea-{type}-baby-male","hadrosauroidea:hadrosauroidea-{type}-baby-female","hadrosauroidea:hadrosauroidea-{type}-baby-male"],
 				"*-adult-female":["hadrosauroidea:hadrosauroidea-{type}-adult-female","hadrosauroidea:hadrosauroidea-{type}-adult-female","hadrosauroidea:hadrosauroidea-{type}-adult-female","hadrosauroidea:hadrosauroidea-{type}-adult-male", "hadrosauroidea:hadrosauroidea-{type}-baby-female","hadrosauroidea:hadrosauroidea-{type}-baby-male","hadrosauroidea:hadrosauroidea-{type}-baby-female","hadrosauroidea:hadrosauroidea-{type}-baby-male"],
 			},
-
 		},
 		"runtime": {
 			"group": "neutral",
-			"TriesPerChunk": { "avg": 0.000, "var": 0 },
 			"MinDistanceToPlayer": 100,
 			"tryOnlySurface": true,
 			"chanceByType": {
@@ -1135,7 +1133,6 @@
 				"*-hadrosauroidea-canardia-male": 0.00001,"*-hadrosauroidea-canardia-female": 0.00001,
 				"*":0.00,
 			},
-			"maxQuantity": 1,
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
 			"spawnCapPlayerScaling": 0.0,
@@ -1163,8 +1160,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-magnapaulia-adult-*": {
@@ -1179,8 +1179,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-edmontosaurus-adult-*": {
@@ -1195,8 +1198,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-hadrosaurus-adult-*": {
@@ -1211,8 +1217,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-saurolophus-adult-*": {
@@ -1227,8 +1236,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-hypacrosaurus-adult-*": {
@@ -1243,8 +1255,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-parasaurolophus-adult-*": {
@@ -1259,8 +1274,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-charonosaurus-adult-*": {
@@ -1275,8 +1293,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-olorotitan-adult-*": {
@@ -1291,8 +1312,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-hypsibema-adult-*": {
@@ -1307,8 +1331,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-gryposaurus-adult-*": {
@@ -1323,8 +1350,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-lambeosaurus-adult-*": {
@@ -1339,8 +1369,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-brachylophosaurus-adult-*": {
@@ -1355,8 +1388,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-corythosaurus-adult-*": {
@@ -1371,8 +1407,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-maiasaura-adult-*": {
@@ -1387,8 +1426,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-amurosaurus-adult-*": {
@@ -1403,8 +1445,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-arenysaurus-adult-*": {
@@ -1419,8 +1464,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-bonapartesaurus-adult-*": {
@@ -1435,8 +1483,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-pararhabdodon-adult-*": {
@@ -1451,8 +1502,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-telmatosaurus-adult-*": {
@@ -1467,8 +1521,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-secernosaurus-adult-*": {
@@ -1483,8 +1540,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-probactrosaurus-adult-*": {
@@ -1499,8 +1559,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-acristavus-adult-*": {
@@ -1515,8 +1578,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-kazaklambia-adult-*": {
@@ -1531,8 +1597,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-tanius-adult-*": {
@@ -1547,8 +1616,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 			"*-canardia-adult-*": {
@@ -1563,8 +1635,11 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
+					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
 				}
 			},
 		}
