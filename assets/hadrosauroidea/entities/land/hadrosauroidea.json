@@ -742,7 +742,7 @@
 						"enabledByType": {"*-adult-*": true,"*-baby-*":false},
 						"entityCodesByType": {
 							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
-							"tyrannosauridae-*", "spinosauridae-*", "dromaeosauridae-*",
+							"tyrannosauridae-*", "spinosauridae-*", "dromaeosauridae-*","abelisauridae-*",
 								]},
 						"priority": 1.9,
 						"slot": 1,
@@ -850,13 +850,17 @@
 						"animation": "Trot",
 						"enabledByType": {"*": true},
 						"entityCodesByType": {
-							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
+							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 							"*":[
 								"tyrannosauridae-tyrannosaurus-adult-*", "tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*",
 
 								"spinosauridae-spinosaurus-adult-*", "spinosauridae-oxalaia-adult-*", "spinosauridae-suchomimus-adult-*", "spinosauridae-baryonyx-adult-*", "spinosauridae-ichthyovenator-adult-*","spinosauridae-irritator-adult-*",
 
 								"dromaeosauridae-utahraptor-adult-*","dromaeosauridae-dakotaraptor-adult-*","dromaeosauridae-achillobator-adult-*","dromaeosauridae-austroraptor-adult-*","dromaeosauridae-deinonychus-adult-*","dromaeosauridae-dromaeosaurus-adult-*","dromaeosauridae-adasaurus-adult-*","dromaeosauridae-velociraptor-adult-*","dromaeosauridae-saurornitholestes-adult-*","dromaeosauridae-atrociraptor-adult-*","dromaeosauridae-pyroraptor-adult-*","dromaeosauridae-buitreraptor-adult-*","dromaeosauridae-microraptor-adult-*","dromaeosauridae-rahonavis-adult-*",
+
+								"abelisauridae-pycnonemosaurus-adult-*","abelisauridae-ekrixinatosaurus-adult-*","abelisauridae-carnotaurus-adult-*","abelisauridae-chenanisaurus-adult-*","abelisauridae-rajasaurus-adult-*","abelisauridae-abelisaurus-adult-*","abelisauridae-majungasaurus-adult-*","abelisauridae-skorpiovenator-adult-*","abelisauridae-xenotarsosaurus-adult-*","abelisauridae-rahiolisaurus-adult-*","abelisauridae-arcovenator-adult-*","abelisauridae-rugops-adult-*","abelisauridae-aucasaurus-adult-*","abelisauridae-dahalokely-adult-*","abelisauridae-ilokelesia-adult-*","abelisauridae-viavenator-adult-*","abelisauridae-tarascosaurus-adult-*","abelisauridae-thanos-adult-*",
+
+
 							]
 						},
 						"priority": 1.8,
@@ -875,7 +879,7 @@
 						"animation": "gallop",
 						"enabledByType": {"*": true},
 						"entityCodesByType": {
-							"*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
+							"*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 
 						},
 						"priority": 1.81,
@@ -936,7 +940,7 @@
 						"duringDayTimeFramesByType": {
 							"*":[{"fromHour": 22,"toHour": 24},{"fromHour": 0,"toHour": 4},{"fromHour": 12,"toHour": 16}],
 							},
-						"stopOnNearbyEntityCodes": ["bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
+						"stopOnNearbyEntityCodes": ["bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 						"stopRange": 20,
 						"animationSpeedByType": {
 							"*-baby-*": 0.6,
@@ -957,7 +961,7 @@
 						"duringDayTimeFramesByType": {
 							"*":[{"fromHour": 22.5,"toHour": 24},{"fromHour": 0,"toHour": 4},{"fromHour": 12.5,"toHour": 16}],
 							},
-						"stopOnNearbyEntityCodes": ["bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
+						"stopOnNearbyEntityCodes": ["bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 						"stopRange": 10,
 						"animationSpeedByType": {
 							"*-baby-*": 0.6,
@@ -1088,6 +1092,9 @@
         ],
 	"spawnconditions": {
 		"worldgen": {
+			"chanceByType": {"*-baby-*": 0.0},
+			"triesPerChunk": { "avg": 0.001, "var": 0},
+			"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 },
 			"tryOnlySurface": true,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
@@ -1103,36 +1110,9 @@
 			"group": "neutral",
 			"MinDistanceToPlayer": 100,
 			"tryOnlySurface": true,
-			"chanceByType": {
-				"*-hadrosauroidea-shangtungosaurus-male": 0.00001,"*-hadrosauroidea-shangtungosaurus-female": 0.00001,
-				"*-hadrosauroidea-magnapaulia-male": 0.00001,"*-hadrosauroidea-magnapaulia-female": 0.00001,
-				"*-hadrosauroidea-edmontosaurus-male": 0.00001,"*-hadrosauroidea-edmontosaurus-female": 0.00001,
-				"*-hadrosauroidea-hadrosaurus-male": 0.00001,"*-hadrosauroidea-hadrosaurus-female": 0.00001,
-				"*-hadrosauroidea-saurolophus-male": 0.00001,"*-hadrosauroidea-saurolophus-female": 0.00001,
-				"*-hadrosauroidea-hypacrosaurus-male": 0.00001,"*-hadrosauroidea-hypacrosaurus-female": 0.00001,
-				"*-hadrosauroidea-parasaurolophus-male": 0.00001,"*-hadrosauroidea-parasaurolophus-female": 0.00001,
-				"*-hadrosauroidea-charonosaurus-male": 0.00001,"*-hadrosauroidea-charonosaurus-female": 0.00001,
-				"*-hadrosauroidea-olorotitan-male": 0.00001,"*-hadrosauroidea-olorotitan-female": 0.00001,
-				"*-hadrosauroidea-hypsibema-male": 0.00001,"*-hadrosauroidea-hypsibema-female": 0.00001,
-				"*-hadrosauroidea-gryposaurus-male": 0.00001,"*-hadrosauroidea-gryposaurus-female": 0.00001,
-				"*-hadrosauroidea-lambeosaurus-male": 0.00001,"*-hadrosauroidea-lambeosaurus-female": 0.00001,
-				"*-hadrosauroidea-brachylophosaurus-male": 0.00001,"*-hadrosauroidea-brachylophosaurus-female": 0.00001,
-				"*-hadrosauroidea-corythosaurus-male": 0.00001,"*-hadrosauroidea-corythosaurus-female": 0.00001,
-				"*-hadrosauroidea-maiasaura-male": 0.00001,"*-hadrosauroidea-maiasaura-female": 0.00001,
-				"*-hadrosauroidea-barsboldia-male": 0.00001,"*-hadrosauroidea-barsboldia-female": 0.00001,
-				"*-hadrosauroidea-amurosaurus-male": 0.00001,"*-hadrosauroidea-amurosaurus-female": 0.00001,
-				"*-hadrosauroidea-arenysaurus-male": 0.00001,"*-hadrosauroidea-arenysaurus-female": 0.00001,
-				"*-hadrosauroidea-bonapartesaurus-male": 0.00001,"*-hadrosauroidea-bonapartesaurus-female": 0.00001,
-				"*-hadrosauroidea-pararhabdodon-male": 0.00001,"*-hadrosauroidea-pararhabdodon-female": 0.00001,
-				"*-hadrosauroidea-telmatosaurus-male": 0.00001,"*-hadrosauroidea-telmatosaurus-female": 0.00001,
-				"*-hadrosauroidea-secernosaurus-male": 0.00001,"*-hadrosauroidea-secernosaurus-female": 0.00001,
-				"*-hadrosauroidea-probactrosaurus-male": 0.00001,"*-hadrosauroidea-probactrosaurus-female": 0.00001,
-				"*-hadrosauroidea-acristavus-male": 0.00001,"*-hadrosauroidea-acristavus-female": 0.00001,
-				"*-hadrosauroidea-kazaklambia-male": 0.00001,"*-hadrosauroidea-kazaklambia-female": 0.00001,
-				"*-hadrosauroidea-tanius-male": 0.00001,"*-hadrosauroidea-tanius-female": 0.00001,
-				"*-hadrosauroidea-canardia-male": 0.00001,"*-hadrosauroidea-canardia-female": 0.00001,
-				"*":0.00,
-			},
+			"chanceByType": {"*-adult-*": 0.00001,"*":0.00,},
+			"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 },
+			"triesPerChunk": { "avg": 0.000, "var": 0},
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
 			"spawnCapPlayerScaling": 0.0,
@@ -1140,6 +1120,7 @@
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
 				"*-adult-female":{ "dist": "uniform","avg": 10,"var": 5},
+				"*":{ "dist": "uniform","avg": 0,"var": 0},
 			},
 			"companionsByType":{
 				"*-adult-male":["hadrosauroidea:hadrosauroidea-{type}-adult-male"],
@@ -1160,12 +1141,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-magnapaulia-adult-*": {
 				"climate": {
@@ -1179,12 +1154,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-edmontosaurus-adult-*": {
 				"climate": {
@@ -1198,12 +1167,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-hadrosaurus-adult-*": {
 				"climate": {
@@ -1217,12 +1180,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-saurolophus-adult-*": {
 				"climate": {
@@ -1236,12 +1193,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-hypacrosaurus-adult-*": {
 				"climate": {
@@ -1255,12 +1206,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-parasaurolophus-adult-*": {
 				"climate": {
@@ -1274,12 +1219,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-charonosaurus-adult-*": {
 				"climate": {
@@ -1293,12 +1232,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-olorotitan-adult-*": {
 				"climate": {
@@ -1312,12 +1245,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-hypsibema-adult-*": {
 				"climate": {
@@ -1331,12 +1258,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-gryposaurus-adult-*": {
 				"climate": {
@@ -1350,12 +1271,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-lambeosaurus-adult-*": {
 				"climate": {
@@ -1369,12 +1284,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-brachylophosaurus-adult-*": {
 				"climate": {
@@ -1388,12 +1297,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-corythosaurus-adult-*": {
 				"climate": {
@@ -1407,12 +1310,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-maiasaura-adult-*": {
 				"climate": {
@@ -1426,12 +1323,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-amurosaurus-adult-*": {
 				"climate": {
@@ -1445,12 +1336,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-arenysaurus-adult-*": {
 				"climate": {
@@ -1464,12 +1349,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-bonapartesaurus-adult-*": {
 				"climate": {
@@ -1483,12 +1362,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-pararhabdodon-adult-*": {
 			"climate": {
@@ -1502,12 +1375,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-telmatosaurus-adult-*": {
 				"climate": {
@@ -1521,12 +1388,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-secernosaurus-adult-*": {
 				"climate": {
@@ -1540,12 +1401,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-probactrosaurus-adult-*": {
 				"climate": {
@@ -1559,12 +1414,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-acristavus-adult-*": {
 				"climate": {
@@ -1578,12 +1427,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-kazaklambia-adult-*": {
 				"climate": {
@@ -1597,12 +1440,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-tanius-adult-*": {
 				"climate": {
@@ -1616,12 +1453,6 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
 			"*-canardia-adult-*": {
 				"climate": {
@@ -1635,13 +1466,27 @@
 					"minY": 1,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 2 }
-				}
 			},
+			"*": {
+						"climate": {
+							"minTemp": 40,
+							"maxTemp": 40,
+							"minRain": 0,
+							"maxRain": 0,
+							"minForestOrShrubs": 0,
+							"maxForest": 0,
+							"maxShrubs": 0,
+							"minY": 0,
+							"maxY": 0
+						},
+						"worldgen": {
+							"triesPerChunk": { "avg": 0.0, "var": 0}
+						},
+						"runtime": {
+							"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 0 },
+							"chanceByType": {"*-baby-*": 0.0},
+						}
+					},
 		}
     },
 "soundsByType": {

@@ -150,7 +150,9 @@
 		],
 	"spawnconditions": {
 		"worldgen": {
+			"chanceByType": {"*-empty": 0.0},
 			"triesPerChunk": { "avg": 0.0, "var": 0},
+			"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 },
 			"tryOnlySurface": true,
 			"insideBlockCodes": [
 				"game:air",
@@ -170,6 +172,7 @@
 			"tryOnlySurface": true,
 			"chanceByType": {"*-incubating": 0.00001,"*": 0.0},
 			"TriesPerChunk": { "avg": 0.0, "var": 0 },
+			"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 },
 			"mindistancetoplayer": 100,
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
@@ -190,7 +193,7 @@
 		},
     },
 	"spawnconditionsByType": {
-			"*-shangtungosaurus-*": {
+			"*-shangtungosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
@@ -209,7 +212,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-magnapaulia-*": {
+			"*-magnapaulia-nest-incubating": {
 				"climate": {
 					"minTemp": 15,
 					"maxTemp": 30,
@@ -228,7 +231,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-edmontosaurus-*": {
+			"*-edmontosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": -5,
 					"maxTemp": 20,
@@ -247,7 +250,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-hadrosaurus-*": {
+			"*-hadrosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 15,
 					"maxTemp": 25,
@@ -266,7 +269,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-saurolophus-*": {
+			"*-saurolophus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 25,
@@ -285,7 +288,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-hypacrosaurus-*": {
+			"*-hypacrosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
@@ -304,7 +307,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-parasaurolophus-*": {
+			"*-parasaurolophus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 30,
@@ -323,7 +326,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-charonosaurus-*": {
+			"*-charonosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
@@ -342,7 +345,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-olorotitan-*": {
+			"*-olorotitan-nest-incubating": {
 				"climate": {
 					"minTemp": 0,
 					"maxTemp": 20,
@@ -361,7 +364,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-hypsibema-*": {
+			"*-hypsibema-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 30,
@@ -380,7 +383,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-gryposaurus-*": {
+			"*-gryposaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 25,
@@ -399,7 +402,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-lambeosaurus-*": {
+			"*-lambeosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
@@ -418,7 +421,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-brachylophosaurus-*": {
+			"*-brachylophosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
@@ -437,7 +440,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-corythosaurus-*": {
+			"*-corythosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
@@ -456,7 +459,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-maiasaura-*": {
+			"*-maiasaura-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 25,
@@ -475,7 +478,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-amurosaurus-*": {
+			"*-amurosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
@@ -494,7 +497,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-arenysaurus-*": {
+			"*-arenysaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
@@ -513,7 +516,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-bonapartesaurus-*": {
+			"*-bonapartesaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 15,
 					"maxTemp": 30,
@@ -532,7 +535,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-pararhabdodon-*": {
+			"*-pararhabdodon-nest-incubating": {
 			"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
@@ -551,7 +554,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-telmatosaurus-*": {
+			"*-telmatosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
@@ -570,7 +573,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-secernosaurus-*": {
+			"*-secernosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 15,
 					"maxTemp": 30,
@@ -589,7 +592,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-probactrosaurus-*": {
+			"*-probactrosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
@@ -608,7 +611,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-acristavus-*": {
+			"*-acristavus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
@@ -627,7 +630,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-kazaklambia-*": {
+			"*-kazaklambia-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
@@ -646,7 +649,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-tanius-*": {
+			"*-tanius-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
@@ -665,7 +668,7 @@
 					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
 				}
 			},
-			"*-canardia-*": {
+			"*-canardia-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
