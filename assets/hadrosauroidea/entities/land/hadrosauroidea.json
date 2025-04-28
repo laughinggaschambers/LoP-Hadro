@@ -41,7 +41,7 @@
 		},
 
     "deadhitBoxSizeByType": {
-		"*-adult-*": {"x": 2,"y": 2},"*-baby-*": {"x": 1,"y": 1},
+		"*-adult-*": {"x": 1,"y": 1},"*-baby-*": {"x": 1,"y": 1},
 		},
     "eyeHeightByType": {"*":1},
     "weightByType": {"*-adult-*":4000,"*-baby-*":10},
