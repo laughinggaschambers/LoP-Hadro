@@ -230,7 +230,7 @@
                         "/server/behaviors/10/drops/2/quantityByType/*-kazaklambia-adult-*/avg": "value * drop_multiplier",
     "/server/behaviors/10/drops/0/quantityByType/*-tanius-adult-*/avg": "value * drop_multiplier",
                         "/server/behaviors/10/drops/0/quantityByType/*-tanius-adult-*/var": "value * drop_multiplier",
-                        "/server/behaviors/10/drops/0/quantityByType/*-tanius-baby-*/avg": "value * drop_multiplier",
+                        "/server/behapachycephalosauriaviors/10/drops/0/quantityByType/*-tanius-baby-*/avg": "value * drop_multiplier",
                         "/server/behaviors/10/drops/0/quantityByType/*-tanius-baby-*/var": "value * drop_multiplier",
                         "/server/behaviors/10/drops/1/quantityByType/*-tanius-adult-*/avg": "value * drop_multiplier",
                         "/server/behaviors/10/drops/1/quantityByType/*-tanius-adult-*/var": "value * drop_multiplier",
@@ -252,6 +252,12 @@
         "/server/spawnconditions/worldgen/triesPerChunk/avg": "worlgen",
         "/server/spawnconditions/runtime/chanceByType/*-adult-*": "runtime",
       }
+    },
+    "boolean":{
+      "hadrosauroidea:entities/land/hadrosauroidea.json": {
+        "/server/behaviors/0/enabledByType/*": "ridable",
+        "/client/behaviors/0/enabledByType/*": "ridable",
+        }
     }
   },
   "settings":[
@@ -286,6 +292,12 @@
         "max": 1.0,
         "step":0.00001
       }
+    },
+    {
+      "code": "ridable",
+      "type": "boolean",
+      "ingui": "setting-ridable",
+      "default": true,
     },
   ]
 }
