@@ -9,7 +9,6 @@
         {"code": "gender","states": ["male","female"]},
     ],
     "fallDamageMultiplierByType": { "*-baby-*" :2,"*-adult-*" :15},
-    "canclimbanywhere":true,
     "hitBoxSizeByType": {
 			"*-shangtungosaurus-adult-male": {"x": 2,"y": 4}, "*-shangtungosaurus-adult-female": {"x": 2,"y": 4}, "*-shangtungosaurus-baby-*": {"x": 1,"y": 1},
 			"*-magnapaulia-adult-male": {"x": 2,"y": 3}, "*-magnapaulia-adult-female": {"x": 2,"y": 3}, "*-magnapaulia-baby-*": {"x": 1,"y": 1},
@@ -45,7 +44,7 @@
 		},
     "eyeHeightByType": {"*":1},
     "weightByType": {"*-adult-*":4000,"*-baby-*":10},
-    "knockbackResistanceByType": {"*-adult-*": 1,"*-baby-*": 1	},
+    "knockbackResistanceByType": {"*-adult-*": 1,"*-baby-*": 0	},
 
     "drops": [],
     "attributes": {
@@ -851,7 +850,7 @@
 						"animation": "Trot",
 						"enabledByType": {"*": true},
 						"entityCodesByType": {
-							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							"*-baby-*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 							"*":[
 								"tyrannosauridae-tyrannosaurus-adult-*","tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*","tyrannosauridae-zhuchengtyrannus-adult-*","tyrannosauridae-bistahieversor-adult-*","tyrannosauridae-thanatotheristes-adult-*","tyrannosauridae-teratophoneus-adult-*","tyrannosauridae-dynamoterror-adult-*",
 
@@ -1087,6 +1086,7 @@
 						"code": "stayclosetoentity",
 						"animation": "Run",
 						"priority": 2,
+						"enabledByType": {"*-adult-*": true,"*-baby-*":false},
 						"entityCodeByType": {
 							"*-adult-*": "hitch"
 							},
@@ -1105,10 +1105,11 @@
 					{
 						"code": "seekentity",
 						"animation": "Run",
+						"enabledByType": {"*-adult-*": true,"*-baby-*":false},
 						"entityCodesByType": {"*-adult-*":["hitch"],},
-						"priority": 1.85,
-						"seekingRange": 10,
-						"belowTempSeekingRange": 10,
+						"priority": 1,
+						"seekingRange": 5,
+						"belowTempSeekingRange": 5,
 						"movespeedByType": {
 							"*-adult-*": 0.04,
 							"*-baby-*": 0.020,

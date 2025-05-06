@@ -1,6 +1,6 @@
 [
   {
-    "file": "ankylosauria:entities/land/ankylosauria.json",
+    "file": "hadrosauroidea:entities/land/hadrosauroidea.json",
     "op": "addmerge",
     "path": "/attributesByType",
     "side": "Server",
@@ -188,7 +188,7 @@
     ]
   },
   {
-    "file": "ankylosauria:entities/land/nest.json",
+    "file": "hadrosauroidea:entities/land/nest.json",
     "op": "addmerge",
     "path": "/attributesByType",
     "side": "Server",
