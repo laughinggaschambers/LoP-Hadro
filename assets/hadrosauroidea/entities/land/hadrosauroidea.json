@@ -742,7 +742,7 @@
 						"entityCodesByType": {
 							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
 
-							"tyrannosauridae-*", "spinosauridae-*", "dromaeosauridae-*","abelisauridae-*",
+							"tyrannosauridae-*", "spinosauridae-*", "dromaeosauridae-*","abelisauridae-*","mosasauridae-*",
 								]},
 						"priority": 1.9,
 						"slot": 1,
@@ -850,7 +850,7 @@
 						"animation": "Trot",
 						"enabledByType": {"*": true},
 						"entityCodesByType": {
-							"*-baby-*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							"*-baby-*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","mosasauridae-*",],
 							"*":[
 								"tyrannosauridae-tyrannosaurus-adult-*","tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*","tyrannosauridae-zhuchengtyrannus-adult-*","tyrannosauridae-bistahieversor-adult-*","tyrannosauridae-thanatotheristes-adult-*","tyrannosauridae-teratophoneus-adult-*","tyrannosauridae-dynamoterror-adult-*",
 
@@ -879,7 +879,7 @@
 						"animation": "gallop",
 						"enabledByType": {"*": true},
 						"entityCodesByType": {
-							"*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							"*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","mosasauridae-*",],
 
 						},
 						"priority": 1.81,
