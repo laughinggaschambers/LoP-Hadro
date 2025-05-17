@@ -151,7 +151,7 @@
 	"spawnconditions": {
 		"worldgen": {
 			"chanceByType": {"*-empty": 0.0},
-			"triesPerChunk": { "avg": 0.0, "var": 0},
+			"triesPerChunkByType": {"*-incubating":{ "avg": 0.001, "var": 0},},
 			"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 },
 			"tryOnlySurface": true,
 			"insideBlockCodes": [
@@ -198,494 +198,338 @@
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.6,
 					"maxForest": 0.7,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-magnapaulia-nest-incubating": {
 				"climate": {
 					"minTemp": 15,
 					"maxTemp": 30,
 					"minRain": 0.5,
-					"maxRain": 0.9,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.7,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-edmontosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": -5,
 					"maxTemp": 20,
 					"minRain": 0.3,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.6,
-					"maxShrubs": 0.5,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-hadrosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 15,
 					"maxTemp": 25,
 					"minRain": 0.3,
-					"maxRain": 0.6,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.5,
-					"maxShrubs": 0.5,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-saurolophus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 25,
 					"minRain": 0.3,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-hypacrosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.7,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-parasaurolophus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 30,
 					"minRain": 0.4,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.7,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-charonosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-olorotitan-nest-incubating": {
 				"climate": {
 					"minTemp": 0,
 					"maxTemp": 20,
 					"minRain": 0.5,
-					"maxRain": 0.9,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.6,
 					"maxForest": 0.8,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-hypsibema-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 30,
 					"minRain": 0.5,
-					"maxRain": 0.9,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.7,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-gryposaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-lambeosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-brachylophosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
 					"minRain": 0.4,
-					"maxRain": 0.6,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.6,
-					"maxShrubs": 0.5,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-corythosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.7,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-maiasaura-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 25,
 					"minRain": 0.3,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.7,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-amurosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 20,
 					"minRain": 0.5,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.6,
 					"maxForest": 0.8,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-arenysaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-bonapartesaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 15,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.6,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.5,
-					"maxShrubs": 0.5,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-pararhabdodon-nest-incubating": {
 			"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-telmatosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-secernosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 15,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.6,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.5,
-					"maxShrubs": 0.5,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-probactrosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-acristavus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.5,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.6,
 					"maxForest": 0.7,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-kazaklambia-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-tanius-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			},
 			"*-canardia-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 25,
 					"minRain": 0.4,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.6,
-					"maxShrubs": 0.6,
-					"minY": 1,
+					"maxShrubs": 1,
+					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "hadrosauroidea-*", "maxQuantity": 1 }
-				}
 			}
 	}
 }
