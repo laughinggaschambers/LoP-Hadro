@@ -743,6 +743,8 @@
 							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
 
 							"tyrannosauridae-*", "spinosauridae-*", "dromaeosauridae-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",
+
+							"pantherinae-*", "caninae-*","felinae-*","machairodontinae-*","ursidae-*",
 								]},
 						"priority": 1.9,
 						"slot": 1,
@@ -803,9 +805,13 @@
 							"*-baby-*": false,
 							"*": true},
 						"entityCodesByType": {
-							"*-adult-*": ["bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
+							"*-adult-*": ["bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","bear-*",
 
-							"dromaeosauridae-austroraptor-adult-*","dromaeosauridae-deinonychus-adult-*","dromaeosauridae-dromaeosaurus-adult-*","dromaeosauridae-adasaurus-adult-*","dromaeosauridae-velociraptor-adult-*","dromaeosauridae-saurornitholestes-adult-*","dromaeosauridae-atrociraptor-adult-*","dromaeosauridae-pyroraptor-adult-*","dromaeosauridae-buitreraptor-adult-*","dromaeosauridae-microraptor-adult-*","dromaeosauridae-rahonavis-adult-*",]
+							"dromaeosauridae-austroraptor-adult-*","dromaeosauridae-deinonychus-adult-*","dromaeosauridae-dromaeosaurus-adult-*","dromaeosauridae-adasaurus-adult-*","dromaeosauridae-velociraptor-adult-*","dromaeosauridae-saurornitholestes-adult-*","dromaeosauridae-atrociraptor-adult-*","dromaeosauridae-pyroraptor-adult-*","dromaeosauridae-buitreraptor-adult-*","dromaeosauridae-microraptor-adult-*","dromaeosauridae-rahonavis-adult-*",
+
+							"pantherinae-*", "caninae-*","felinae-*","machairodontinae-*","ursidae-*",
+
+							]
 						},
 						"priority": 1.86,
 						"mincooldown": 6000,
@@ -829,7 +835,12 @@
 							"*-baby-*": false,
 							"*": true},
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*", "dromaeosauridae-*",]
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
+
+							"dromaeosauridae-*",
+
+							"pantherinae-*", "caninae-*","felinae-*","machairodontinae-*","ursidae-*",
+							]
 						},
 						"priority": 1.84,
 						"mincooldown": 6000,
@@ -850,7 +861,12 @@
 						"animation": "Trot",
 						"enabledByType": {"*": true},
 						"entityCodesByType": {
-							"*-baby-*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",],
+							"*-baby-*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female",
+
+							"tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",
+
+							"pantherinae-*", "caninae-*","felinae-*","machairodontinae-*","ursidae-*",
+							],
 							"*":[
 								"tyrannosauridae-tyrannosaurus-adult-*","tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*","tyrannosauridae-zhuchengtyrannus-adult-*","tyrannosauridae-bistahieversor-adult-*","tyrannosauridae-thanatotheristes-adult-*","tyrannosauridae-teratophoneus-adult-*","tyrannosauridae-dynamoterror-adult-*",
 
@@ -882,7 +898,12 @@
 						"animation": "gallop",
 						"enabledByType": {"*": true},
 						"entityCodesByType": {
-							"*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",],
+							"*":["player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female",
+
+							"tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","mosasauridae-*","carcharodontosauridae-*",
+
+							"pantherinae-*", "caninae-*","felinae-*","machairodontinae-*","ursidae-*",
+							],
 
 						},
 						"priority": 1.81,
@@ -943,7 +964,12 @@
 						"duringDayTimeFramesByType": {
 							"*":[{"fromHour": 22,"toHour": 24},{"fromHour": 0,"toHour": 4},{"fromHour": 12,"toHour": 16}],
 							},
-						"stopOnNearbyEntityCodes": ["bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","carcharodontosauridae-*",],
+						"stopOnNearbyEntityCodes": ["bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female",
+
+						"tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","carcharodontosauridae-*",
+
+						"pantherinae-*", "caninae-*","felinae-*","machairodontinae-*","ursidae-*",
+						],
 						"stopRange": 20,
 						"animationSpeedByType": {
 							"*-baby-*": 0.6,
@@ -964,7 +990,12 @@
 						"duringDayTimeFramesByType": {
 							"*":[{"fromHour": 22.5,"toHour": 24},{"fromHour": 0,"toHour": 4},{"fromHour": 12.5,"toHour": 16}],
 							},
-						"stopOnNearbyEntityCodes": ["bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","carcharodontosauridae-*",],
+						"stopOnNearbyEntityCodes": ["bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female",
+
+						"tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","carcharodontosauridae-*",
+
+						"pantherinae-*", "caninae-*","felinae-*","machairodontinae-*","ursidae-*",
+						],
 						"stopRange": 10,
 						"animationSpeedByType": {
 							"*-baby-*": 0.6,
