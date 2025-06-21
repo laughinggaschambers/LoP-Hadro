@@ -375,6 +375,9 @@
 		},
 
         "behaviors": [
+			{"code": "ownable", "enabledByType": { "*-ampelosaurus-*":false,"*-baby-*": false,"*": true},"minGeneration": 3 },
+			{"code": "selectionboxes", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
 			{"code": "rideable", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
             {"code": "repulseagents" },
 			{"code": "controlledphysics","stepHeightByType":
@@ -414,9 +417,7 @@
 			{"code": "harvestable","quantitySlots": 8},
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
-			{"code": "selectionboxes", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
-			{"code": "ownable", "enabledByType": { "*-ampelosaurus-*":false,"*-baby-*": false,"*": true},"minGeneration": 3 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
+			{"code": "ropetieable","minGeneration": 3},
         ],
         "animations": [
 			{"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -440,11 +441,10 @@
     "server": {
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 60,"maxTurnAnglePerSec": 120}},
         "behaviors": [
-			{"code": "rideable", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
-			{"code": "selectionboxes", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
 			{"code": "ownable", "enabledByType": { "*-ampelosaurus-*":false,"*-baby-*": false,"*": true},"minGeneration": 3 },
+			{"code": "selectionboxes", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
 			{"code": "rideableaccessories", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
-
+			{"code": "rideable", "enabledByType": {  "*-ampelosaurus-*":false,"*-baby-*": false, "*": true},"minGeneration": 3 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeightByType":
 				{
